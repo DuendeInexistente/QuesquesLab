@@ -585,39 +585,39 @@ MODULES
 	FILE /tmp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/Scene_b.o
-		NAME lcc214150
+		NAME lcc139870
 	FILE obj/data/data_ptrs.o
-		NAME lcc214190
+		NAME lcc139910
 	FILE obj/data/bank_6.o
-		NAME lcc214230
+		NAME lcc139950
 	FILE obj/data/bank_7.o
-		NAME lcc214270
+		NAME lcc139990
 	FILE obj/Scene.o
-		NAME lcc214310
+		NAME lcc140040
 	FILE obj/ScriptRunner_b.o
-		NAME lcc214350
+		NAME lcc140090
 	FILE obj/MusicManager.o
-		NAME lcc214390
+		NAME lcc140150
 	FILE obj/game.o
-		NAME lcc214440
+		NAME lcc140190
 	FILE obj/BankManager.o
-		NAME lcc214480
+		NAME lcc140230
 	FILE obj/SpriteHelpers.o
-		NAME lcc214520
+		NAME lcc140270
 	FILE obj/UI_b.o
-		NAME lcc214560
+		NAME lcc140310
 	FILE obj/ScriptRunner.o
-		NAME lcc214600
+		NAME lcc140360
 	FILE obj/UI.o
-		NAME lcc214650
+		NAME lcc140410
 	FILE obj/BankData.o
-		NAME lcc214690
+		NAME lcc140450
 	FILE obj/Math.o
-		NAME lcc214730
+		NAME lcc140490
 	FILE obj/Stack.o
-		NAME lcc214770
+		NAME lcc140530
 	FILE obj/FadeManager.o
-		NAME lcc214810
+		NAME lcc140570
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 LIBRARIES
