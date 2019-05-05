@@ -359,10 +359,10 @@
 ; Area: _CODE_5
 01:4000 _tileset_bank_ptrs
 01:400C _background_bank_ptrs
-01:402A _sprite_bank_ptrs
-01:4060 _scene_bank_ptrs
-01:4081 _string_bank_ptrs
-01:40EA _music_banks
+01:402D _sprite_bank_ptrs
+01:4063 _scene_bank_ptrs
+01:4087 _string_bank_ptrs
+01:4111 _music_banks
 ; Area: _CODE_6
 01:4000 _bank_6_data
 ; Area: _CODE_7

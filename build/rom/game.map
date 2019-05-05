@@ -17,7 +17,7 @@ AREA .  .ABS.
 		l__LIT	0000
 		l__GSINITTAIL	0001
 		l__BSS	005E
-		l__CODE_5	00EC
+		l__CODE_5	0113
 		l__BASE	01DA
 		l__HEADER	01E1
 		s__CODE	0200
@@ -34,8 +34,8 @@ AREA .  .ABS.
 		s__GSFINAL	2126
 		l__CODE_4	2477
 		l__CODE_3	2636
-		l__CODE_7	2C7A
-		l__CODE_6	3E68
+		l__CODE_7	3270
+		l__CODE_6	3E25
 		s__CODE_1	4000
 		s__CODE_3	4000
 		s__CODE_4	4000
@@ -458,26 +458,26 @@ AREA _CODE_3
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 00EC
+	SIZE 0113
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	400C
-		_sprite_bank_ptrs	402A
-		_scene_bank_ptrs	4060
-		_string_bank_ptrs	4081
-		_music_banks	40EA
+		_sprite_bank_ptrs	402D
+		_scene_bank_ptrs	4063
+		_string_bank_ptrs	4087
+		_music_banks	4111
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3E68
+	SIZE 3E25
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 2C7A
+	SIZE 3270
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
@@ -585,39 +585,39 @@ MODULES
 	FILE /tmp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/Scene_b.o
-		NAME lcc190050
+		NAME lcc315080
 	FILE obj/data/data_ptrs.o
-		NAME lcc190090
+		NAME lcc315120
 	FILE obj/data/bank_6.o
-		NAME lcc190130
+		NAME lcc315160
 	FILE obj/data/bank_7.o
-		NAME lcc190170
+		NAME lcc315200
 	FILE obj/Scene.o
-		NAME lcc190210
+		NAME lcc315240
 	FILE obj/ScriptRunner_b.o
-		NAME lcc190250
+		NAME lcc315280
 	FILE obj/MusicManager.o
-		NAME lcc190290
+		NAME lcc315320
 	FILE obj/game.o
-		NAME lcc190330
+		NAME lcc315360
 	FILE obj/BankManager.o
-		NAME lcc190370
+		NAME lcc315400
 	FILE obj/SpriteHelpers.o
-		NAME lcc190410
+		NAME lcc315440
 	FILE obj/UI_b.o
-		NAME lcc190450
+		NAME lcc315480
 	FILE obj/ScriptRunner.o
-		NAME lcc190490
+		NAME lcc315520
 	FILE obj/UI.o
-		NAME lcc190530
+		NAME lcc315560
 	FILE obj/BankData.o
-		NAME lcc190570
+		NAME lcc315600
 	FILE obj/Math.o
-		NAME lcc190610
+		NAME lcc315640
 	FILE obj/Stack.o
-		NAME lcc190650
+		NAME lcc315680
 	FILE obj/FadeManager.o
-		NAME lcc190690
+		NAME lcc315720
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 LIBRARIES
