@@ -3,7 +3,8 @@
    - [ ] Add Sea's description
    - [ ] Finish drawing
  - [ ] Necia
-   - [ ] (Sunk Entrance) Cuando Necia llega al borde, una imagen de ella mirando al la oscuridad (Dandole la espalda a la "Camara) deberia aparecer por un par de segundos, y cuando termina Necia le da la espalda  a la oscuridad y vuelve a la luz
+   - [X] (Sunk Entrance) Cuando Necia llega al borde, una imagen de ella mirando al la oscuridad (Dandole la espalda a la "Camara) deberia aparecer por un par de segundos, y cuando termina Necia le da la espalda  a la oscuridad y vuelve a la luz
+     -[ ] Hecho. Repasar la imagen.
    - [ ] Diferente spritesheet cuando esta nadando?
 
 

@@ -371,8 +371,8 @@
 01:4000 _tileset_bank_ptrs
 01:400F _background_bank_ptrs
 01:4036 _sprite_bank_ptrs
-01:406C _scene_bank_ptrs
-01:4096 _string_bank_ptrs
+01:406F _scene_bank_ptrs
+01:4099 _string_bank_ptrs
 01:4132 _music_banks
 ; Area: _CODE_6
 01:4000 _bank_6_data
