@@ -17,15 +17,15 @@ AREA .  .ABS.
 		l__LIT	0000
 		l__GSINITTAIL	0001
 		l__BSS	005E
-		l__CODE_5	0158
+		l__CODE_5	013A
 		l__BASE	01DA
 		l__HEADER	01E1
 		s__CODE	0200
 		l__HOME	0312
-		l__DATA	044A
+		l__DATA	044B
 		l__GSINIT	0578
 		l__CODE_1	0671
-		l__CODE_8	09D9
+		l__CODE_8	11EB
 		l__CODE	15CF
 		s__HOME	17CF
 		s__BASE	1AE1
@@ -33,10 +33,10 @@ AREA .  .ABS.
 		s__GSINIT	1CBB
 		s__GSINITTAIL	2233
 		s__GSFINAL	2234
-		l__CODE_3	2759
+		l__CODE_3	2754
 		l__CODE_4	2893
-		l__CODE_6	3BD3
-		l__CODE_7	3F9A
+		l__CODE_6	3A2D
+		l__CODE_7	3FF4
 		s__CODE_1	4000
 		s__CODE_3	4000
 		s__CODE_4	4000
@@ -46,12 +46,12 @@ AREA .  .ABS.
 		s__CODE_8	4000
 		.OAM	C000
 		s__DATA	C0A0
-		s__BSS	C4EA
-		s__HEAP	C548
-		s__BSEG	C548
-		s__ISEG	C548
-		s__XSEG	C548
-		s__OVERLAY	C548
+		s__BSS	C4EB
+		s__HEAP	C549
+		s__BSEG	C549
+		s__ISEG	C549
+		s__XSEG	C549
+		s__OVERLAY	C549
 		.STACK	E000
 		.refresh_OAM	FF80
 AREA _CODE
@@ -268,7 +268,7 @@ AREA _GSFINAL
 AREA _DATA
 	RADIX HEX
 	BASE C0A0
-	SIZE 044A
+	SIZE 044B
 	ATTRIB REL CON
 	GLOBALS
 		_scene_bank	C0A0
@@ -292,143 +292,143 @@ AREA _DATA
 		_bank_data_ptrs	C141
 		_music_tracks	C153
 		_script_variables	C157
-		_map_next_pos	C1BE
-		_map_next_dir	C1C0
-		_map_next_sprite	C1C2
-		_actors	C1C3
-		_triggers	C273
-		_scene_index	C2CD
-		_scene_next_index	C2CF
-		_await_input	C2D1
-		_camera_dest	C2D2
-		_camera_settings	C2D4
-		_camera_speed	C2D5
-		_wait_time	C2D6
-		_shake_time	C2D7
-		_scene_width	C2D8
-		_scene_height	C2D9
-		_scriptrunner_bank	C2DA
-		_RAMPtr	C2DB
-		_current_index	C2DD
-		_joy	C2DE
-		_prev_joy	C2DF
-		_time	C2E0
-		_rand_seed	C2E1
-		_actor_move_settings	C2E3
-		_actor_move_dest	C2E4
-		_stage_type	C2E6
-		_stage_next_type	C2E7
-		_script_continue	C2E8
-		_script_action_complete	C2E9
-		_script_actor	C2EA
-		_state_pos	C2EB
-		_state_dir	C2ED
-		_state_scene_index	C2EF
-		_bank_stack	C2F1
-		_ui_bank	C2FC
-		_script_ptr_bank	C2FD
-		_script_ptr	C2FE
-		_script_ptr_x	C300
-		_script_ptr_y	C302
-		_script_start_ptr	C304
-		_script_cmd_args	C306
-		_script_cmd_args_len	C30C
-		_last_fn	C30D
-		_BG_ptr_bank	C30F
-		_BG_ptr	C310
-		_BG_start_ptr	C312
-		_BGscript_active	C314
-		_script_cmds	C315
-		_win_pos_x	C3F3
-		_win_pos_y	C3F4
-		_win_dest_pos_x	C3F5
-		_win_dest_pos_y	C3F6
-		_win_speed	C3F7
-		_text_x	C3F8
-		_text_y	C3F9
-		_text_drawn	C3FA
-		_text_count	C3FB
-		_text_wait	C3FC
-		_choice_enabled	C3FD
-		_choice_index	C3FE
-		_choice_flag	C3FF
-		_text_lines	C401
-		_tmp_text_lines	C451
-		gbt_playing	C4AA
-		gbt_song	C4AB
-		gbt_bank	C4AD
-		gbt_speed	C4AE
-		gbt_temp_play_data	C4AF
-		gbt_loop_enabled	C4BB
-		gbt_ticks_elapsed	C4BC
-		gbt_current_step	C4BD
-		gbt_current_pattern	C4BE
-		gbt_current_step_data_ptr	C4BF
-		gbt_channels_enabled	C4C1
-		gbt_pan	C4C2
-		gbt_vol	C4C6
-		gbt_instr	C4CA
-		gbt_freq	C4CE
-		gbt_channel3_loaded_instrument	C4D4
-		gbt_arpeggio_freq_index	C4D5
-		gbt_arpeggio_enabled	C4DE
-		gbt_arpeggio_tick	C4E1
-		gbt_cut_note_tick	C4E4
-		gbt_have_to_stop_next_step	C4E8
-		gbt_update_pattern_pointers	C4E9
+		_map_next_pos	C1BF
+		_map_next_dir	C1C1
+		_map_next_sprite	C1C3
+		_actors	C1C4
+		_triggers	C274
+		_scene_index	C2CE
+		_scene_next_index	C2D0
+		_await_input	C2D2
+		_camera_dest	C2D3
+		_camera_settings	C2D5
+		_camera_speed	C2D6
+		_wait_time	C2D7
+		_shake_time	C2D8
+		_scene_width	C2D9
+		_scene_height	C2DA
+		_scriptrunner_bank	C2DB
+		_RAMPtr	C2DC
+		_current_index	C2DE
+		_joy	C2DF
+		_prev_joy	C2E0
+		_time	C2E1
+		_rand_seed	C2E2
+		_actor_move_settings	C2E4
+		_actor_move_dest	C2E5
+		_stage_type	C2E7
+		_stage_next_type	C2E8
+		_script_continue	C2E9
+		_script_action_complete	C2EA
+		_script_actor	C2EB
+		_state_pos	C2EC
+		_state_dir	C2EE
+		_state_scene_index	C2F0
+		_bank_stack	C2F2
+		_ui_bank	C2FD
+		_script_ptr_bank	C2FE
+		_script_ptr	C2FF
+		_script_ptr_x	C301
+		_script_ptr_y	C303
+		_script_start_ptr	C305
+		_script_cmd_args	C307
+		_script_cmd_args_len	C30D
+		_last_fn	C30E
+		_BG_ptr_bank	C310
+		_BG_ptr	C311
+		_BG_start_ptr	C313
+		_BGscript_active	C315
+		_script_cmds	C316
+		_win_pos_x	C3F4
+		_win_pos_y	C3F5
+		_win_dest_pos_x	C3F6
+		_win_dest_pos_y	C3F7
+		_win_speed	C3F8
+		_text_x	C3F9
+		_text_y	C3FA
+		_text_drawn	C3FB
+		_text_count	C3FC
+		_text_wait	C3FD
+		_choice_enabled	C3FE
+		_choice_index	C3FF
+		_choice_flag	C400
+		_text_lines	C402
+		_tmp_text_lines	C452
+		gbt_playing	C4AB
+		gbt_song	C4AC
+		gbt_bank	C4AE
+		gbt_speed	C4AF
+		gbt_temp_play_data	C4B0
+		gbt_loop_enabled	C4BC
+		gbt_ticks_elapsed	C4BD
+		gbt_current_step	C4BE
+		gbt_current_pattern	C4BF
+		gbt_current_step_data_ptr	C4C0
+		gbt_channels_enabled	C4C2
+		gbt_pan	C4C3
+		gbt_vol	C4C7
+		gbt_instr	C4CB
+		gbt_freq	C4CF
+		gbt_channel3_loaded_instrument	C4D5
+		gbt_arpeggio_freq_index	C4D6
+		gbt_arpeggio_enabled	C4DF
+		gbt_arpeggio_tick	C4E2
+		gbt_cut_note_tick	C4E5
+		gbt_have_to_stop_next_step	C4E9
+		gbt_update_pattern_pointers	C4EA
 AREA _BSS
 	RADIX HEX
-	BASE C4EA
+	BASE C4EB
 	SIZE 005E
 	ATTRIB REL CON
 	GLOBALS
-		__cpu	C4EA
-		.mode	C4EB
-		__io_out	C4EC
-		__io_in	C4ED
-		__io_status	C4EE
-		.vbl_done	C4EF
-		__current_bank	C4F0
-		_sys_time	C4F1
-		.sys_time	C4F1
-		.int_0x40	C4F3
-		.int_0x48	C503
-		.int_0x50	C513
-		.int_0x58	C523
-		.int_0x60	C533
-		.randhi	C543
-		.randlo	C544
+		__cpu	C4EB
+		.mode	C4EC
+		__io_out	C4ED
+		__io_in	C4EE
+		__io_status	C4EF
+		.vbl_done	C4F0
+		__current_bank	C4F1
+		_sys_time	C4F2
+		.sys_time	C4F2
+		.int_0x40	C4F4
+		.int_0x48	C504
+		.int_0x50	C514
+		.int_0x58	C524
+		.int_0x60	C534
+		.randhi	C544
+		.randlo	C545
 AREA _HEAP
 	RADIX HEX
-	BASE C548
+	BASE C549
 	SIZE 0000
 	ATTRIB REL CON
 	GLOBALS
-		_malloc_heap_start	C548
+		_malloc_heap_start	C549
 AREA _OVERLAY
 	RADIX HEX
-	BASE C548
+	BASE C549
 	SIZE 0000
 	ATTRIB REL CON
 AREA _ISEG
 	RADIX HEX
-	BASE C548
+	BASE C549
 	SIZE 0000
 	ATTRIB REL CON
 AREA _BSEG
 	RADIX HEX
-	BASE C548
+	BASE C549
 	SIZE 0000
 	ATTRIB REL CON
 AREA _XSEG
 	RADIX HEX
-	BASE C548
+	BASE C549
 	SIZE 0000
 	ATTRIB REL CON
 AREA _CODE_3
 	RADIX HEX
 	BASE 4000
-	SIZE 2759
+	SIZE 2754
 	ATTRIB REL CON
 	GLOBALS
 		_SceneInit_b1	4000
@@ -463,19 +463,19 @@ AREA _CODE_3
 		_SceneNpcAt_b	6516
 		_SceneTriggerAt_b	65DD
 		_SceneSetEmote_b	6687
-		_SceneIsEmoting_b	66FE
-		_SceneCameraAtDest_b	670A
+		_SceneIsEmoting_b	66F9
+		_SceneCameraAtDest_b	6705
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 09D9
+	SIZE 11EB
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 0158
+	SIZE 013A
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
@@ -483,18 +483,18 @@ AREA _CODE_5
 		_sprite_bank_ptrs	4039
 		_scene_bank_ptrs	4060
 		_string_bank_ptrs	4084
-		_music_banks	4156
+		_music_banks	4138
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3BD3
+	SIZE 3A2D
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3F9A
+	SIZE 3FF4
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
@@ -610,41 +610,41 @@ MODULES
 	FILE /tmp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/Scene_b.o
-		NAME lcc262860
+		NAME lcc316050
 	FILE obj/data/bank_8.o
-		NAME lcc262900
+		NAME lcc316090
 	FILE obj/data/data_ptrs.o
-		NAME lcc262940
+		NAME lcc316130
 	FILE obj/data/bank_6.o
-		NAME lcc262980
+		NAME lcc316170
 	FILE obj/data/bank_7.o
-		NAME lcc263020
+		NAME lcc316210
 	FILE obj/Scene.o
-		NAME lcc263060
+		NAME lcc316250
 	FILE obj/ScriptRunner_b.o
-		NAME lcc263100
+		NAME lcc316290
 	FILE obj/MusicManager.o
-		NAME lcc263140
+		NAME lcc316340
 	FILE obj/game.o
-		NAME lcc263180
+		NAME lcc316380
 	FILE obj/BankManager.o
-		NAME lcc263220
+		NAME lcc316420
 	FILE obj/SpriteHelpers.o
-		NAME lcc263260
+		NAME lcc316460
 	FILE obj/UI_b.o
-		NAME lcc263300
+		NAME lcc316500
 	FILE obj/ScriptRunner.o
-		NAME lcc263340
+		NAME lcc316540
 	FILE obj/UI.o
-		NAME lcc263380
+		NAME lcc316580
 	FILE obj/BankData.o
-		NAME lcc263420
+		NAME lcc316620
 	FILE obj/Math.o
-		NAME lcc263460
+		NAME lcc316660
 	FILE obj/Stack.o
-		NAME lcc263500
+		NAME lcc316700
 	FILE obj/FadeManager.o
-		NAME lcc263540
+		NAME lcc316740
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 LIBRARIES
