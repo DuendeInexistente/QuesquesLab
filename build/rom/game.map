@@ -30,13 +30,13 @@ AREA .  .ABS.
 		s__BASE	1AD8
 		s__LIT	1CB2
 		s__GSINIT	1CB2
-		l__CODE_8	1ED8
+		l__CODE_8	1EEA
 		s__GSINITTAIL	222A
 		s__GSFINAL	222B
 		l__CODE_3	2759
 		l__CODE_4	2893
-		l__CODE_7	3A20
-		l__CODE_6	3E5D
+		l__CODE_7	3AB0
+		l__CODE_6	3EC2
 		s__CODE_1	4000
 		s__CODE_3	4000
 		s__CODE_4	4000
@@ -468,7 +468,7 @@ AREA _CODE_3
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 1ED8
+	SIZE 1EEA
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
@@ -487,14 +487,14 @@ AREA _CODE_5
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3E5D
+	SIZE 3EC2
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3A20
+	SIZE 3AB0
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
@@ -610,41 +610,41 @@ MODULES
 	FILE /tmp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/Scene_b.o
-		NAME lcc64130
+		NAME lcc155000
 	FILE obj/data/bank_8.o
-		NAME lcc64170
+		NAME lcc155040
 	FILE obj/data/data_ptrs.o
-		NAME lcc64210
+		NAME lcc155080
 	FILE obj/data/bank_6.o
-		NAME lcc64250
+		NAME lcc155120
 	FILE obj/data/bank_7.o
-		NAME lcc64290
+		NAME lcc155160
 	FILE obj/Scene.o
-		NAME lcc64330
+		NAME lcc155200
 	FILE obj/ScriptRunner_b.o
-		NAME lcc64370
+		NAME lcc155240
 	FILE obj/MusicManager.o
-		NAME lcc64410
+		NAME lcc155280
 	FILE obj/game.o
-		NAME lcc64450
+		NAME lcc155320
 	FILE obj/BankManager.o
-		NAME lcc64490
+		NAME lcc155360
 	FILE obj/SpriteHelpers.o
-		NAME lcc64530
+		NAME lcc155400
 	FILE obj/UI_b.o
-		NAME lcc64570
+		NAME lcc155440
 	FILE obj/ScriptRunner.o
-		NAME lcc64610
+		NAME lcc155480
 	FILE obj/UI.o
-		NAME lcc64650
+		NAME lcc155520
 	FILE obj/BankData.o
-		NAME lcc64690
+		NAME lcc155560
 	FILE obj/Math.o
-		NAME lcc64730
+		NAME lcc155600
 	FILE obj/Stack.o
-		NAME lcc64770
+		NAME lcc155640
 	FILE obj/FadeManager.o
-		NAME lcc64810
+		NAME lcc155680
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 LIBRARIES
