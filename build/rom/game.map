@@ -20,7 +20,7 @@ AREA .  .ABS.
 		l__BASE	01DA
 		l__HEADER	01E1
 		s__CODE	0200
-		l__CODE_5	0245
+		l__CODE_5	024E
 		l__HOME	0312
 		l__DATA	04FD
 		l__GSINIT	0600
@@ -34,9 +34,9 @@ AREA .  .ABS.
 		s__GSFINAL	22E2
 		l__CODE_3	273C
 		l__CODE_4	2AE8
-		l__CODE_8	2E68
-		l__CODE_7	3DC2
-		l__CODE_6	3EF9
+		l__CODE_8	2E6D
+		l__CODE_7	3E9A
+		l__CODE_6	3F74
 		s__CODE_1	4000
 		s__CODE_3	4000
 		s__CODE_4	4000
@@ -476,33 +476,33 @@ AREA _CODE_3
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 2E68
+	SIZE 2E6D
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 0245
+	SIZE 024E
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	4018
 		_sprite_bank_ptrs	4042
-		_scene_bank_ptrs	4069
-		_string_bank_ptrs	4093
-		_music_banks	4243
+		_scene_bank_ptrs	406C
+		_string_bank_ptrs	4096
+		_music_banks	424C
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3EF9
+	SIZE 3F74
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3DC2
+	SIZE 3E9A
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
@@ -625,41 +625,41 @@ MODULES
 	FILE /tmp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/Scene_b.o
-		NAME lcc68380
+		NAME lcc139840
 	FILE obj/data/bank_8.o
-		NAME lcc68420
+		NAME lcc139880
 	FILE obj/data/data_ptrs.o
-		NAME lcc68460
+		NAME lcc139920
 	FILE obj/data/bank_6.o
-		NAME lcc68500
+		NAME lcc139960
 	FILE obj/data/bank_7.o
-		NAME lcc68540
+		NAME lcc140000
 	FILE obj/Scene.o
-		NAME lcc68580
+		NAME lcc140040
 	FILE obj/ScriptRunner_b.o
-		NAME lcc68620
+		NAME lcc140080
 	FILE obj/MusicManager.o
-		NAME lcc68660
+		NAME lcc140120
 	FILE obj/game.o
-		NAME lcc68700
+		NAME lcc140160
 	FILE obj/BankManager.o
-		NAME lcc68740
+		NAME lcc140200
 	FILE obj/SpriteHelpers.o
-		NAME lcc68780
+		NAME lcc140240
 	FILE obj/UI_b.o
-		NAME lcc68820
+		NAME lcc140280
 	FILE obj/ScriptRunner.o
-		NAME lcc68860
+		NAME lcc140320
 	FILE obj/UI.o
-		NAME lcc68900
+		NAME lcc140360
 	FILE obj/BankData.o
-		NAME lcc68940
+		NAME lcc140400
 	FILE obj/Math.o
-		NAME lcc68980
+		NAME lcc140440
 	FILE obj/Stack.o
-		NAME lcc69020
+		NAME lcc140480
 	FILE obj/FadeManager.o
-		NAME lcc69060
+		NAME lcc140520
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 LIBRARIES

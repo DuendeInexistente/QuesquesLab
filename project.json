@@ -6,7 +6,7 @@
         "startX": 10,
         "startY": 13,
         "startDirection": "up",
-        "zoom": 200,
+        "zoom": 100,
         "startSceneId": "32a52ce4-782c-4972-a89a-def0c9fae90a",
         "playerSpriteSheetId": "d156fe56-2100-4ae5-85cc-5129a3dbe1b2"
     },
@@ -62,10 +62,6 @@
             "name": "HasSunkKey"
         },
         {
-            "id": "52",
-            "name": "PressBToTouch"
-        },
-        {
             "id": "54",
             "name": "HasBelt"
         },
@@ -100,9 +96,27 @@
         {
             "id": "300",
             "name": "EntranceMachineFixed"
+        },
+        {
+            "id": "9",
+            "name": "Inventory Prompt Given"
+        },
+        {
+            "id": "8",
+            "name": "Press B Prompt Given"
         }
     ],
     "backgrounds": [
+        {
+            "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "name": "cave",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "cave.png",
+            "_v": 1557752668877
+        },
         {
             "id": "e7e4d5c3-a600-410a-b230-02435526cfb2",
             "name": "GUI/inv sidebar",
@@ -111,7 +125,7 @@
             "imageWidth": 166,
             "imageHeight": 144,
             "filename": "GUI/inv sidebar.png",
-            "_v": 1557701963081
+            "_v": 1557752668877
         },
         {
             "id": "d12b2c84-c254-4c86-b9bf-4ed5bea25559",
@@ -121,187 +135,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GUI/inventory.png",
-            "_v": 1557701963081
-        },
-        {
-            "id": "efebf370-556c-4f9f-bd41-6f9049b5217c",
-            "name": "Lab/Bridge Over Void",
-            "width": 25,
-            "height": 20,
-            "imageWidth": 200,
-            "imageHeight": 160,
-            "filename": "Lab/Bridge Over Void.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "25fa25bf-655e-4d73-97c7-474e5be5e43a",
-            "name": "Lab/Entrance",
-            "width": 20,
-            "height": 20,
-            "imageWidth": 160,
-            "imageHeight": 160,
-            "filename": "Lab/Entrance.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "d11e7530-eb86-4c29-bf30-79cf1a5bfe30",
-            "name": "Lab/Hardware room",
-            "width": 23,
-            "height": 20,
-            "imageWidth": 184,
-            "imageHeight": 160,
-            "filename": "Lab/Hardware room.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "0b6076b5-8f74-4c05-aefc-06e57ce27ae8",
-            "name": "Lab/RightEntrance -lounge- ",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Lab/RightEntrance -lounge- .png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "8ef062f0-762e-49b0-aa7c-5dfbf50b3914",
-            "name": "Lab/Water entrance",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Lab/Water entrance.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "24faf649-2c28-4a5c-aab2-b36aa9771899",
-            "name": "Lab/blast room",
-            "width": 28,
-            "height": 28,
-            "imageWidth": 224,
-            "imageHeight": 224,
-            "filename": "Lab/blast room.png",
-            "_v": 1557705545442
-        },
-        {
-            "id": "560039fd-4ba0-45c5-899e-49fc3b4dd023",
-            "name": "Lab/inventory",
-            "width": 20,
-            "height": 24,
-            "imageWidth": 160,
-            "imageHeight": 192,
-            "filename": "Lab/inventory.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "99d2ae75-9b14-4b78-bb05-2b17c4ac3337",
-            "name": "Lab/secrettubes",
-            "width": 24,
-            "height": 24,
-            "imageWidth": 192,
-            "imageHeight": 192,
-            "filename": "Lab/secrettubes.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "719e9c11-39f6-441f-8241-8560c4d7614f",
-            "name": "Lab/underwater",
-            "width": 20,
-            "height": 20,
-            "imageWidth": 160,
-            "imageHeight": 160,
-            "filename": "Lab/underwater.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "a1a00865-4420-4172-b6b0-69e148daa8d7",
-            "name": "Portraits/Leaf",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Portraits/Leaf.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "1166af21-231e-4faa-8d60-a872ef71d7b7",
-            "name": "Portraits/Necia",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Portraits/Necia.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "0f41ac97-5986-447e-8904-cc20b654b2c3",
-            "name": "Portraits/Necia_stares_into_the_dark",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Portraits/Necia_stares_into_the_dark.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "57de5858-b218-413d-81f0-8f9317e7e350",
-            "name": "Portraits/Pawop",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Portraits/Pawop.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "0e4394d4-3679-4838-ac29-d3d0edfa068c",
-            "name": "Portraits/Sea",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "Portraits/Sea.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "f3acfc0a-8f31-4f16-aea1-817c9d66b480",
-            "name": "Tilesets/Entrance",
-            "width": 20,
-            "height": 20,
-            "imageWidth": 160,
-            "imageHeight": 160,
-            "filename": "Tilesets/Entrance.png",
-            "_v": 1557701963083
-        },
-        {
-            "id": "43a98091-7e15-4e66-8108-26250dbcc5a0",
-            "name": "Tilesets/First",
-            "width": 32,
-            "height": 32,
-            "imageWidth": 384,
-            "imageHeight": 400,
-            "filename": "Tilesets/First.png",
-            "_v": 1557705417151
-        },
-        {
-            "id": "db0dafd8-6263-4e26-bb08-6efb02269f53",
-            "name": "Tilesets/untitled",
-            "width": 32,
-            "height": 32,
-            "imageWidth": 256,
-            "imageHeight": 256,
-            "filename": "Tilesets/untitled.png",
-            "_v": 1557701963083
-        },
-        {
-            "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
-            "name": "cave",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "cave.png",
-            "_v": 1557701963181
+            "_v": 1557752668879
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -311,7 +145,97 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1557701963081
+            "_v": 1557752669009
+        },
+        {
+            "id": "24faf649-2c28-4a5c-aab2-b36aa9771899",
+            "name": "Lab/blast room",
+            "width": 28,
+            "height": 28,
+            "imageWidth": 224,
+            "imageHeight": 224,
+            "filename": "Lab/blast room.png",
+            "_v": 1557752668877
+        },
+        {
+            "id": "efebf370-556c-4f9f-bd41-6f9049b5217c",
+            "name": "Lab/Bridge Over Void",
+            "width": 25,
+            "height": 20,
+            "imageWidth": 200,
+            "imageHeight": 160,
+            "filename": "Lab/Bridge Over Void.png",
+            "_v": 1557752668877
+        },
+        {
+            "id": "25fa25bf-655e-4d73-97c7-474e5be5e43a",
+            "name": "Lab/Entrance",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Lab/Entrance.png",
+            "_v": 1557752668878
+        },
+        {
+            "id": "d11e7530-eb86-4c29-bf30-79cf1a5bfe30",
+            "name": "Lab/Hardware room",
+            "width": 23,
+            "height": 20,
+            "imageWidth": 184,
+            "imageHeight": 160,
+            "filename": "Lab/Hardware room.png",
+            "_v": 1557752668878
+        },
+        {
+            "id": "560039fd-4ba0-45c5-899e-49fc3b4dd023",
+            "name": "Lab/inventory",
+            "width": 20,
+            "height": 24,
+            "imageWidth": 160,
+            "imageHeight": 192,
+            "filename": "Lab/inventory.png",
+            "_v": 1557752668879
+        },
+        {
+            "id": "0b6076b5-8f74-4c05-aefc-06e57ce27ae8",
+            "name": "Lab/RightEntrance -lounge- ",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Lab/RightEntrance -lounge- .png",
+            "_v": 1557752668879
+        },
+        {
+            "id": "99d2ae75-9b14-4b78-bb05-2b17c4ac3337",
+            "name": "Lab/secrettubes",
+            "width": 24,
+            "height": 24,
+            "imageWidth": 192,
+            "imageHeight": 192,
+            "filename": "Lab/secrettubes.png",
+            "_v": 1557752668879
+        },
+        {
+            "id": "719e9c11-39f6-441f-8241-8560c4d7614f",
+            "name": "Lab/underwater",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Lab/underwater.png",
+            "_v": 1557752668879
+        },
+        {
+            "id": "8ef062f0-762e-49b0-aa7c-5dfbf50b3914",
+            "name": "Lab/Water entrance",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Lab/Water entrance.png",
+            "_v": 1557752668881
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -321,7 +245,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1557701963082
+            "_v": 1557752668879
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -331,7 +255,57 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1557701963082
+            "_v": 1557752668880
+        },
+        {
+            "id": "a1a00865-4420-4172-b6b0-69e148daa8d7",
+            "name": "Portraits/Leaf",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Portraits/Leaf.png",
+            "_v": 1557752668880
+        },
+        {
+            "id": "0f41ac97-5986-447e-8904-cc20b654b2c3",
+            "name": "Portraits/Necia_stares_into_the_dark",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Portraits/Necia_stares_into_the_dark.png",
+            "_v": 1557752668880
+        },
+        {
+            "id": "1166af21-231e-4faa-8d60-a872ef71d7b7",
+            "name": "Portraits/Necia",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Portraits/Necia.png",
+            "_v": 1557752668880
+        },
+        {
+            "id": "57de5858-b218-413d-81f0-8f9317e7e350",
+            "name": "Portraits/Pawop",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Portraits/Pawop.png",
+            "_v": 1557752668880
+        },
+        {
+            "id": "0e4394d4-3679-4838-ac29-d3d0edfa068c",
+            "name": "Portraits/Sea",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Portraits/Sea.png",
+            "_v": 1557752668880
         },
         {
             "id": "02851b13-c7ea-4e18-827e-c8e1686bc1f2",
@@ -341,17 +315,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "quesquentrance.png",
-            "_v": 1557701963082
-        },
-        {
-            "id": "40fda058-df90-4205-a239-fe77bce4fa79",
-            "name": "stars",
-            "width": 32,
-            "height": 32,
-            "imageWidth": 256,
-            "imageHeight": 256,
-            "filename": "stars.png",
-            "_v": 1557701963083
+            "_v": 1557752668880
         },
         {
             "id": "63e7d2db-59ac-44ab-ac49-392ae29c2b15",
@@ -361,7 +325,47 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars_testing.png",
-            "_v": 1557701963083
+            "_v": 1557752668880
+        },
+        {
+            "id": "40fda058-df90-4205-a239-fe77bce4fa79",
+            "name": "stars",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "stars.png",
+            "_v": 1557752668881
+        },
+        {
+            "id": "f3acfc0a-8f31-4f16-aea1-817c9d66b480",
+            "name": "Tilesets/Entrance",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Tilesets/Entrance.png",
+            "_v": 1557752668881
+        },
+        {
+            "id": "43a98091-7e15-4e66-8108-26250dbcc5a0",
+            "name": "Tilesets/First",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 384,
+            "imageHeight": 400,
+            "filename": "Tilesets/First.png",
+            "_v": 1557752668924
+        },
+        {
+            "id": "db0dafd8-6263-4e26-bb08-6efb02269f53",
+            "name": "Tilesets/untitled",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "Tilesets/untitled.png",
+            "_v": 1557752668881
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -371,7 +375,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1557701963087
+            "_v": 1557752668881
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -381,7 +385,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1557701963087
+            "_v": 1557752668918
         }
     ],
     "spriteSheets": [
@@ -391,7 +395,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/down.png",
-            "_v": 1557701963362
+            "_v": 1557752669390
         },
         {
             "id": "cd31ef20-aafd-4000-ac05-e54a2e0b8d6e",
@@ -399,7 +403,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/genericcircular.png",
-            "_v": 1557701963362
+            "_v": 1557752669390
         },
         {
             "id": "60da9505-3c54-4cb1-841e-dd55cf1dc15f",
@@ -407,7 +411,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/genericsquare.png",
-            "_v": 1557701963362
+            "_v": 1557752669391
         },
         {
             "id": "322d795b-718a-44df-978f-861d00e81559",
@@ -415,7 +419,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/left.png",
-            "_v": 1557701963391
+            "_v": 1557752669391
         },
         {
             "id": "50576478-766d-4184-ad45-4985f54beec8",
@@ -423,7 +427,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/pad.png",
-            "_v": 1557701963363
+            "_v": 1557752669390
         },
         {
             "id": "20534289-e8ef-4318-b0c2-eb893183f862",
@@ -431,7 +435,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/right.png",
-            "_v": 1557701963363
+            "_v": 1557752669390
         },
         {
             "id": "851c14f5-cead-40b7-8e22-e85b9158ba65",
@@ -439,7 +443,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/up.png",
-            "_v": 1557701963363
+            "_v": 1557752669390
         },
         {
             "id": "afd2bd5e-4057-4f96-90c9-b857a1899d8c",
@@ -447,119 +451,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Black.png",
-            "_v": 1557701963363
-        },
-        {
-            "id": "a926978b-d415-4863-96a7-dcc6ed1bd143",
-            "name": "Invisible",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "Invisible.png",
-            "_v": 1557701963366
-        },
-        {
-            "id": "b2c66d82-5e85-4edf-9b3e-1cc6252b760e",
-            "name": "Items/Key",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "Items/Key.png",
-            "_v": 1557701963366
-        },
-        {
-            "id": "8af8fc1c-0475-4c4d-a47f-120e3c8e0f04",
-            "name": "Items/belt",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "Items/belt.png",
-            "_v": 1557701963366
-        },
-        {
-            "id": "4a5cb5b5-d6c2-4f1d-bb2a-e928d740d534",
-            "name": "Items/bottle",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "Items/bottle.png",
-            "_v": 1557707679063
-        },
-        {
-            "id": "516a3d32-7ba8-421b-98f5-acb793858e66",
-            "name": "Items/paper",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "Items/paper.png",
-            "_v": 1557701963366
-        },
-        {
-            "id": "35657cda-243d-4ba7-a570-ab7b6db8d1bf",
-            "name": "MC_Leaf-export",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "MC_Leaf-export.png",
-            "_v": 1557701963366
-        },
-        {
-            "id": "d156fe56-2100-4ae5-85cc-5129a3dbe1b2",
-            "name": "MC_Leaf",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "MC_Leaf.png",
-            "_v": 1557701963366
-        },
-        {
-            "id": "1a0f762d-8d61-4f3d-ab58-e0fb2617a066",
-            "name": "MC_Necia",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "MC_Necia.png",
-            "_v": 1557701963367
-        },
-        {
-            "id": "1b9fb4d8-860a-47cd-adf5-b1932a621142",
-            "name": "MC_Necia_swiming",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "MC_Necia_swiming.png",
-            "_v": 1557701963366
-        },
-        {
-            "id": "85a4edc4-3305-4d21-a9e8-2890c96f4865",
-            "name": "MC_Pawop",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "MC_Pawop.png",
-            "_v": 1557701963367
-        },
-        {
-            "id": "8060dcce-521b-4160-8295-b5883e8505ed",
-            "name": "MC_Sea",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "MC_Sea.png",
-            "_v": 1557701963371
-        },
-        {
-            "id": "aa8a7bbd-ce1f-401d-bead-e8979d6e314a",
-            "name": "MC_pawop",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "MC_pawop.png",
-            "_v": 1557701963367
-        },
-        {
-            "id": "522f2a43-bfb7-42ea-9b58-3c604b914d0d",
-            "name": "RIP",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "RIP.png",
-            "_v": 1557701963367
-        },
-        {
-            "id": "5491677c-4aa0-45ef-8bb9-897814187076",
-            "name": "SafetyRail_Door",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "SafetyRail_Door.png",
-            "_v": 1557701963380
+            "_v": 1557752669390
         },
         {
             "id": "b4c87c0d-a0ce-40c1-900b-ed297913fa20",
@@ -567,7 +459,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/cat.png",
-            "_v": 1557701963363
+            "_v": 1557752669391
         },
         {
             "id": "fefb0123-2cf6-4468-b520-bb6d5db82456",
@@ -575,7 +467,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/dog.png",
-            "_v": 1557701963364
+            "_v": 1557752669391
         },
         {
             "id": "3e06c56b-3038-4577-9937-d9b3ee3f6303",
@@ -583,7 +475,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/duck.png",
-            "_v": 1557701963363
+            "_v": 1557752669391
         },
         {
             "id": "b700ca0f-9760-4585-a0a0-c2e6504604c7",
@@ -591,7 +483,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/ice.png",
-            "_v": 1557701963365
+            "_v": 1557752669392
         },
         {
             "id": "8884edac-d484-41f9-993a-0a3620768526",
@@ -599,7 +491,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "default/npc001.png",
-            "_v": 1557701963364
+            "_v": 1557752669391
         },
         {
             "id": "d8b95c20-e527-46a4-90a2-846976e0ceea",
@@ -607,7 +499,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "default/npc002.png",
-            "_v": 1557701963365
+            "_v": 1557752669391
         },
         {
             "id": "a8b4aac1-b3a2-480c-819e-8fdf4bbf4468",
@@ -615,7 +507,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "default/npc003.png",
-            "_v": 1557701963365
+            "_v": 1557752669391
         },
         {
             "id": "fc7ea84b-2259-4183-8c3e-bd217e9d8a59",
@@ -623,7 +515,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/radio.png",
-            "_v": 1557701963365
+            "_v": 1557752669391
         },
         {
             "id": "614b7b2d-bc35-472e-a416-96d2457777fe",
@@ -631,7 +523,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/rock.png",
-            "_v": 1557701963365
+            "_v": 1557752669392
         },
         {
             "id": "cd68add9-d0b2-46b3-93f5-928468482b45",
@@ -639,7 +531,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/sage.png",
-            "_v": 1557701963365
+            "_v": 1557752669392
         },
         {
             "id": "748d60e3-dfed-497c-ba7e-464638553986",
@@ -647,7 +539,47 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/signpost.png",
-            "_v": 1557701963365
+            "_v": 1557752669392
+        },
+        {
+            "id": "a926978b-d415-4863-96a7-dcc6ed1bd143",
+            "name": "Invisible",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Invisible.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "8af8fc1c-0475-4c4d-a47f-120e3c8e0f04",
+            "name": "Items/belt",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Items/belt.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "4a5cb5b5-d6c2-4f1d-bb2a-e928d740d534",
+            "name": "Items/bottle",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Items/bottle.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "b2c66d82-5e85-4edf-9b3e-1cc6252b760e",
+            "name": "Items/Key",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "Items/Key.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "516a3d32-7ba8-421b-98f5-acb793858e66",
+            "name": "Items/paper",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "Items/paper.png",
+            "_v": 1557752669392
         },
         {
             "id": "c28c10a3-bc88-4e0d-a490-4f7aa6baf731",
@@ -655,7 +587,79 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "lamp.png",
-            "_v": 1557701963366
+            "_v": 1557752669392
+        },
+        {
+            "id": "35657cda-243d-4ba7-a570-ab7b6db8d1bf",
+            "name": "MC_Leaf-export",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "MC_Leaf-export.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "d156fe56-2100-4ae5-85cc-5129a3dbe1b2",
+            "name": "MC_Leaf",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "MC_Leaf.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "1b9fb4d8-860a-47cd-adf5-b1932a621142",
+            "name": "MC_Necia_swiming",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "MC_Necia_swiming.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "1a0f762d-8d61-4f3d-ab58-e0fb2617a066",
+            "name": "MC_Necia",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "MC_Necia.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "aa8a7bbd-ce1f-401d-bead-e8979d6e314a",
+            "name": "MC_pawop",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "MC_pawop.png",
+            "_v": 1557752669392
+        },
+        {
+            "id": "85a4edc4-3305-4d21-a9e8-2890c96f4865",
+            "name": "MC_Pawop",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "MC_Pawop.png",
+            "_v": 1557752669396
+        },
+        {
+            "id": "8060dcce-521b-4160-8295-b5883e8505ed",
+            "name": "MC_Sea",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "MC_Sea.png",
+            "_v": 1557752669393
+        },
+        {
+            "id": "522f2a43-bfb7-42ea-9b58-3c604b914d0d",
+            "name": "RIP",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "RIP.png",
+            "_v": 1557752669398
+        },
+        {
+            "id": "5491677c-4aa0-45ef-8bb9-897814187076",
+            "name": "SafetyRail_Door",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "SafetyRail_Door.png",
+            "_v": 1557752669396
         }
     ],
     "scenes": [
@@ -949,7 +953,8 @@
                         "operator": "==",
                         "comparator": "0",
                         "__label": "Assing currentchar variable",
-                        "__collapse": true
+                        "__collapse": true,
+                        "__collapseElse": true
                     },
                     "true": [
                         {
@@ -977,7 +982,8 @@
                     "command": "EVENT_SET_VALUE",
                     "args": {
                         "variable": "100",
-                        "value": 10
+                        "value": 10,
+                        "__collapse": true
                     }
                 },
                 {
@@ -1046,7 +1052,9 @@
                     "id": "6079153d-89b2-47fd-b4c2-ee118f842caf",
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
-                        "input": "start"
+                        "input": "start",
+                        "__label": "Inventory key",
+                        "__collapse": true
                     },
                     "true": [
                         {
@@ -1067,6 +1075,43 @@
                         },
                         {
                             "id": "2f9c11d7-b5c9-4797-832a-59ff4503abf4",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "id": "6e38430c-5ce3-4158-b837-962742e4600e",
+                    "command": "EVENT_IF_FALSE",
+                    "args": {
+                        "variable": "9",
+                        "__collapseElse": true
+                    },
+                    "true": [
+                        {
+                            "id": "e1577bc1-6293-497f-9438-7972e8377bb5",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "9"
+                            }
+                        },
+                        {
+                            "id": "9f63561a-f15a-406f-be03-8866ff7360ed",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Press Start to\nopen your\ninventory, and",
+                                    "exit out the door\nto return from it."
+                                ]
+                            }
+                        },
+                        {
+                            "id": "fc75f762-8b34-48db-af58-fdf7d3b9e59b",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "false": [
+                        {
+                            "id": "1e584c7c-1126-4618-bd8c-d7171b2b27c3",
                             "command": "EVENT_END"
                         }
                     ]
@@ -4806,14 +4851,15 @@
                             "id": "8d9896e2-0d85-48b1-8b15-b92cabe2c618",
                             "command": "EVENT_IF_FALSE",
                             "args": {
-                                "variable": "52"
+                                "variable": "8",
+                                "__collapseElse": true
                             },
                             "true": [
                                 {
                                     "id": "c0d60121-ae63-41ae-8e3b-0619a4692bf4",
                                     "command": "EVENT_SET_TRUE",
                                     "args": {
-                                        "variable": "52"
+                                        "variable": "8"
                                     }
                                 },
                                 {
@@ -6560,11 +6606,21 @@
             "id": "78939415-5d34-498c-b868-08537f753f57",
             "name": "Inventory Screen",
             "backgroundId": "d12b2c84-c254-4c86-b9bf-4ed5bea25559",
-            "x": 667.531914893617,
-            "y": 30,
+            "x": 672.531914893617,
+            "y": 38,
             "width": 32,
             "height": 24,
             "actors": [
+                {
+                    "id": "8306d6e1-a152-458f-9e42-d6223535b86d",
+                    "spriteSheetId": "08dc7252-3163-44ce-a963-9dc1ef61e84a",
+                    "x": 2,
+                    "y": 9,
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3"
+                },
                 {
                     "id": "edbee4fc-ddeb-4ab6-b91e-e1c54e6964bc",
                     "spriteSheetId": "4a5cb5b5-d6c2-4f1d-bb2a-e928d740d534",
