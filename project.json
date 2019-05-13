@@ -6,7 +6,7 @@
         "startX": 10,
         "startY": 13,
         "startDirection": "up",
-        "zoom": 100,
+        "zoom": 200,
         "startSceneId": "32a52ce4-782c-4972-a89a-def0c9fae90a",
         "playerSpriteSheetId": "d156fe56-2100-4ae5-85cc-5129a3dbe1b2"
     },
@@ -88,6 +88,18 @@
         {
             "id": "53",
             "name": "HasWrench"
+        },
+        {
+            "id": "200",
+            "name": "UseBelt"
+        },
+        {
+            "id": "199",
+            "name": "UseSpot"
+        },
+        {
+            "id": "300",
+            "name": "EntranceMachineFixed"
         }
     ],
     "backgrounds": [
@@ -99,7 +111,7 @@
             "imageWidth": 166,
             "imageHeight": 144,
             "filename": "GUI/inv sidebar.png",
-            "_v": 1557579327457
+            "_v": 1557701963081
         },
         {
             "id": "d12b2c84-c254-4c86-b9bf-4ed5bea25559",
@@ -109,7 +121,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GUI/inventory.png",
-            "_v": 1557579327473
+            "_v": 1557701963081
         },
         {
             "id": "efebf370-556c-4f9f-bd41-6f9049b5217c",
@@ -119,7 +131,7 @@
             "imageWidth": 200,
             "imageHeight": 160,
             "filename": "Lab/Bridge Over Void.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "25fa25bf-655e-4d73-97c7-474e5be5e43a",
@@ -129,7 +141,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Lab/Entrance.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "d11e7530-eb86-4c29-bf30-79cf1a5bfe30",
@@ -139,7 +151,7 @@
             "imageWidth": 184,
             "imageHeight": 160,
             "filename": "Lab/Hardware room.png",
-            "_v": 1557579327488
+            "_v": 1557701963082
         },
         {
             "id": "0b6076b5-8f74-4c05-aefc-06e57ce27ae8",
@@ -149,7 +161,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/RightEntrance -lounge- .png",
-            "_v": 1557579377374
+            "_v": 1557701963082
         },
         {
             "id": "8ef062f0-762e-49b0-aa7c-5dfbf50b3914",
@@ -159,7 +171,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/Water entrance.png",
-            "_v": 1557579785720
+            "_v": 1557701963082
         },
         {
             "id": "24faf649-2c28-4a5c-aab2-b36aa9771899",
@@ -169,7 +181,7 @@
             "imageWidth": 224,
             "imageHeight": 224,
             "filename": "Lab/blast room.png",
-            "_v": 1557579327473
+            "_v": 1557705545442
         },
         {
             "id": "560039fd-4ba0-45c5-899e-49fc3b4dd023",
@@ -179,7 +191,7 @@
             "imageWidth": 160,
             "imageHeight": 192,
             "filename": "Lab/inventory.png",
-            "_v": 1557579327483
+            "_v": 1557701963082
         },
         {
             "id": "99d2ae75-9b14-4b78-bb05-2b17c4ac3337",
@@ -189,7 +201,7 @@
             "imageWidth": 192,
             "imageHeight": 192,
             "filename": "Lab/secrettubes.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "719e9c11-39f6-441f-8241-8560c4d7614f",
@@ -199,7 +211,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Lab/underwater.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "a1a00865-4420-4172-b6b0-69e148daa8d7",
@@ -209,7 +221,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Leaf.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "1166af21-231e-4faa-8d60-a872ef71d7b7",
@@ -219,7 +231,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Necia.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "0f41ac97-5986-447e-8904-cc20b654b2c3",
@@ -229,7 +241,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Necia_stares_into_the_dark.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "57de5858-b218-413d-81f0-8f9317e7e350",
@@ -239,7 +251,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Pawop.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "0e4394d4-3679-4838-ac29-d3d0edfa068c",
@@ -249,7 +261,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Sea.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "f3acfc0a-8f31-4f16-aea1-817c9d66b480",
@@ -259,7 +271,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Tilesets/Entrance.png",
-            "_v": 1557579327496
+            "_v": 1557701963083
         },
         {
             "id": "43a98091-7e15-4e66-8108-26250dbcc5a0",
@@ -269,7 +281,7 @@
             "imageWidth": 384,
             "imageHeight": 400,
             "filename": "Tilesets/First.png",
-            "_v": 1557579327473
+            "_v": 1557705417151
         },
         {
             "id": "db0dafd8-6263-4e26-bb08-6efb02269f53",
@@ -279,7 +291,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Tilesets/untitled.png",
-            "_v": 1557579327473
+            "_v": 1557701963083
         },
         {
             "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
@@ -289,7 +301,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1557579327457
+            "_v": 1557701963181
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -299,7 +311,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1557579327457
+            "_v": 1557701963081
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -309,7 +321,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -319,7 +331,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "02851b13-c7ea-4e18-827e-c8e1686bc1f2",
@@ -329,7 +341,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "quesquentrance.png",
-            "_v": 1557579327473
+            "_v": 1557701963082
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -339,7 +351,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1557579327473
+            "_v": 1557701963083
         },
         {
             "id": "63e7d2db-59ac-44ab-ac49-392ae29c2b15",
@@ -349,7 +361,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars_testing.png",
-            "_v": 1557579327473
+            "_v": 1557701963083
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -359,7 +371,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1557579327474
+            "_v": 1557701963087
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -369,7 +381,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1557579327474
+            "_v": 1557701963087
         }
     ],
     "spriteSheets": [
@@ -379,7 +391,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/down.png",
-            "_v": 1557579327634
+            "_v": 1557701963362
         },
         {
             "id": "cd31ef20-aafd-4000-ac05-e54a2e0b8d6e",
@@ -387,7 +399,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/genericcircular.png",
-            "_v": 1557579327634
+            "_v": 1557701963362
         },
         {
             "id": "60da9505-3c54-4cb1-841e-dd55cf1dc15f",
@@ -395,7 +407,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/genericsquare.png",
-            "_v": 1557579327634
+            "_v": 1557701963362
         },
         {
             "id": "322d795b-718a-44df-978f-861d00e81559",
@@ -403,7 +415,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/left.png",
-            "_v": 1557579327634
+            "_v": 1557701963391
         },
         {
             "id": "50576478-766d-4184-ad45-4985f54beec8",
@@ -411,7 +423,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/pad.png",
-            "_v": 1557579327634
+            "_v": 1557701963363
         },
         {
             "id": "20534289-e8ef-4318-b0c2-eb893183f862",
@@ -419,7 +431,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/right.png",
-            "_v": 1557579327634
+            "_v": 1557701963363
         },
         {
             "id": "851c14f5-cead-40b7-8e22-e85b9158ba65",
@@ -427,7 +439,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/up.png",
-            "_v": 1557579327634
+            "_v": 1557701963363
         },
         {
             "id": "afd2bd5e-4057-4f96-90c9-b857a1899d8c",
@@ -435,95 +447,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Black.png",
-            "_v": 1557579327634
-        },
-        {
-            "id": "b4c87c0d-a0ce-40c1-900b-ed297913fa20",
-            "name": "default/cat",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/cat.png",
-            "_v": 1557579327634
-        },
-        {
-            "id": "fefb0123-2cf6-4468-b520-bb6d5db82456",
-            "name": "default/dog",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/dog.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "3e06c56b-3038-4577-9937-d9b3ee3f6303",
-            "name": "default/duck",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/duck.png",
-            "_v": 1557579327634
-        },
-        {
-            "id": "b700ca0f-9760-4585-a0a0-c2e6504604c7",
-            "name": "default/ice",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/ice.png",
-            "_v": 1557579327634
-        },
-        {
-            "id": "8884edac-d484-41f9-993a-0a3620768526",
-            "name": "default/npc001",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "default/npc001.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "d8b95c20-e527-46a4-90a2-846976e0ceea",
-            "name": "default/npc002",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "default/npc002.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "a8b4aac1-b3a2-480c-819e-8fdf4bbf4468",
-            "name": "default/npc003",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "default/npc003.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "fc7ea84b-2259-4183-8c3e-bd217e9d8a59",
-            "name": "default/radio",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/radio.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "614b7b2d-bc35-472e-a416-96d2457777fe",
-            "name": "default/rock",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/rock.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "cd68add9-d0b2-46b3-93f5-928468482b45",
-            "name": "default/sage",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/sage.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "748d60e3-dfed-497c-ba7e-464638553986",
-            "name": "default/signpost",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "default/signpost.png",
-            "_v": 1557579327635
+            "_v": 1557701963363
         },
         {
             "id": "a926978b-d415-4863-96a7-dcc6ed1bd143",
@@ -531,15 +455,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Invisible.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "8af8fc1c-0475-4c4d-a47f-120e3c8e0f04",
-            "name": "Items/belt",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "Items/belt.png",
-            "_v": 1557579327635
+            "_v": 1557701963366
         },
         {
             "id": "b2c66d82-5e85-4edf-9b3e-1cc6252b760e",
@@ -547,7 +463,23 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Items/Key.png",
-            "_v": 1557579327635
+            "_v": 1557701963366
+        },
+        {
+            "id": "8af8fc1c-0475-4c4d-a47f-120e3c8e0f04",
+            "name": "Items/belt",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "Items/belt.png",
+            "_v": 1557701963366
+        },
+        {
+            "id": "4a5cb5b5-d6c2-4f1d-bb2a-e928d740d534",
+            "name": "Items/bottle",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Items/bottle.png",
+            "_v": 1557707679063
         },
         {
             "id": "516a3d32-7ba8-421b-98f5-acb793858e66",
@@ -555,15 +487,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Items/paper.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "c28c10a3-bc88-4e0d-a490-4f7aa6baf731",
-            "name": "lamp",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "lamp.png",
-            "_v": 1557579327635
+            "_v": 1557701963366
         },
         {
             "id": "35657cda-243d-4ba7-a570-ab7b6db8d1bf",
@@ -571,7 +495,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Leaf-export.png",
-            "_v": 1557579327635
+            "_v": 1557701963366
         },
         {
             "id": "d156fe56-2100-4ae5-85cc-5129a3dbe1b2",
@@ -579,15 +503,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Leaf.png",
-            "_v": 1557579327635
-        },
-        {
-            "id": "1b9fb4d8-860a-47cd-adf5-b1932a621142",
-            "name": "MC_Necia_swiming",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "MC_Necia_swiming.png",
-            "_v": 1557579327636
+            "_v": 1557701963366
         },
         {
             "id": "1a0f762d-8d61-4f3d-ab58-e0fb2617a066",
@@ -595,15 +511,15 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Necia.png",
-            "_v": 1557579327636
+            "_v": 1557701963367
         },
         {
-            "id": "aa8a7bbd-ce1f-401d-bead-e8979d6e314a",
-            "name": "MC_pawop",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "MC_pawop.png",
-            "_v": 1557579327636
+            "id": "1b9fb4d8-860a-47cd-adf5-b1932a621142",
+            "name": "MC_Necia_swiming",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "MC_Necia_swiming.png",
+            "_v": 1557701963366
         },
         {
             "id": "85a4edc4-3305-4d21-a9e8-2890c96f4865",
@@ -611,7 +527,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Pawop.png",
-            "_v": 1557579327679
+            "_v": 1557701963367
         },
         {
             "id": "8060dcce-521b-4160-8295-b5883e8505ed",
@@ -619,7 +535,15 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Sea.png",
-            "_v": 1557579327639
+            "_v": 1557701963371
+        },
+        {
+            "id": "aa8a7bbd-ce1f-401d-bead-e8979d6e314a",
+            "name": "MC_pawop",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "MC_pawop.png",
+            "_v": 1557701963367
         },
         {
             "id": "522f2a43-bfb7-42ea-9b58-3c604b914d0d",
@@ -627,7 +551,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "RIP.png",
-            "_v": 1557579327643
+            "_v": 1557701963367
         },
         {
             "id": "5491677c-4aa0-45ef-8bb9-897814187076",
@@ -635,7 +559,103 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "SafetyRail_Door.png",
-            "_v": 1557579327652
+            "_v": 1557701963380
+        },
+        {
+            "id": "b4c87c0d-a0ce-40c1-900b-ed297913fa20",
+            "name": "default/cat",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/cat.png",
+            "_v": 1557701963363
+        },
+        {
+            "id": "fefb0123-2cf6-4468-b520-bb6d5db82456",
+            "name": "default/dog",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/dog.png",
+            "_v": 1557701963364
+        },
+        {
+            "id": "3e06c56b-3038-4577-9937-d9b3ee3f6303",
+            "name": "default/duck",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/duck.png",
+            "_v": 1557701963363
+        },
+        {
+            "id": "b700ca0f-9760-4585-a0a0-c2e6504604c7",
+            "name": "default/ice",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/ice.png",
+            "_v": 1557701963365
+        },
+        {
+            "id": "8884edac-d484-41f9-993a-0a3620768526",
+            "name": "default/npc001",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "default/npc001.png",
+            "_v": 1557701963364
+        },
+        {
+            "id": "d8b95c20-e527-46a4-90a2-846976e0ceea",
+            "name": "default/npc002",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "default/npc002.png",
+            "_v": 1557701963365
+        },
+        {
+            "id": "a8b4aac1-b3a2-480c-819e-8fdf4bbf4468",
+            "name": "default/npc003",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "default/npc003.png",
+            "_v": 1557701963365
+        },
+        {
+            "id": "fc7ea84b-2259-4183-8c3e-bd217e9d8a59",
+            "name": "default/radio",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/radio.png",
+            "_v": 1557701963365
+        },
+        {
+            "id": "614b7b2d-bc35-472e-a416-96d2457777fe",
+            "name": "default/rock",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/rock.png",
+            "_v": 1557701963365
+        },
+        {
+            "id": "cd68add9-d0b2-46b3-93f5-928468482b45",
+            "name": "default/sage",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/sage.png",
+            "_v": 1557701963365
+        },
+        {
+            "id": "748d60e3-dfed-497c-ba7e-464638553986",
+            "name": "default/signpost",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "default/signpost.png",
+            "_v": 1557701963365
+        },
+        {
+            "id": "c28c10a3-bc88-4e0d-a490-4f7aa6baf731",
+            "name": "lamp",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "lamp.png",
+            "_v": 1557701963366
         }
     ],
     "scenes": [
@@ -643,8 +663,8 @@
             "id": "32a52ce4-782c-4972-a89a-def0c9fae90a",
             "name": "[10] Entrance",
             "backgroundId": "25fa25bf-655e-4d73-97c7-474e5be5e43a",
-            "x": 726.7446065427415,
-            "y": 434.3129181425238,
+            "x": 721.2446065427415,
+            "y": 435.3129181425238,
             "width": 20,
             "height": 20,
             "actors": [
@@ -666,6 +686,20 @@
                             }
                         },
                         {
+                            "id": "7651b47a-f62b-49b5-89ae-570519755cb5",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "54"
+                            }
+                        },
+                        {
+                            "id": "e46f528c-8ada-434f-92d4-1999c7884167",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "56"
+                            }
+                        },
+                        {
                             "id": "341821c3-1977-4748-8197-996a57e2b928",
                             "command": "EVENT_END"
                         }
@@ -678,7 +712,7 @@
                     "x": 12,
                     "y": 9,
                     "movementType": "randomWalk",
-                    "direction": "up",
+                    "direction": "down",
                     "script": [
                         {
                             "id": "59e2c4a2-80d6-4feb-aef2-609e8dbbea73",
@@ -709,7 +743,8 @@
                             "command": "EVENT_END"
                         }
                     ],
-                    "name": "Conv Leaf"
+                    "name": "Conv Leaf",
+                    "animate": false
                 },
                 {
                     "id": "e4d1a13b-d057-4634-8a1f-574b8011cf39",
@@ -912,7 +947,9 @@
                     "args": {
                         "variable": "101",
                         "operator": "==",
-                        "comparator": "0"
+                        "comparator": "0",
+                        "__label": "Assing currentchar variable",
+                        "__collapse": true
                     },
                     "true": [
                         {
@@ -949,7 +986,10 @@
                     "args": {
                         "variable": "101",
                         "operator": "==",
-                        "comparator": 1
+                        "comparator": 1,
+                        "__collapseElse": true,
+                        "__label": "Hide Leaf",
+                        "__collapse": true
                     },
                     "true": [
                         {
@@ -977,7 +1017,10 @@
                     "args": {
                         "variable": "101",
                         "operator": "==",
-                        "comparator": 2
+                        "comparator": 2,
+                        "__collapseElse": true,
+                        "__label": "Hide Necia",
+                        "__collapse": true
                     },
                     "true": [
                         {
@@ -995,6 +1038,35 @@
                     "false": [
                         {
                             "id": "43a1b026-02b7-488d-a899-1a6bb98f2dc9",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "id": "6079153d-89b2-47fd-b4c2-ee118f842caf",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": "start"
+                    },
+                    "true": [
+                        {
+                            "id": "afd8495f-1085-4a4b-b335-c47dc48460e7",
+                            "command": "EVENT_SCENE_PUSH_STATE",
+                            "args": {}
+                        },
+                        {
+                            "id": "148639ab-e2c0-45ff-9585-26c5396c93c0",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "78939415-5d34-498c-b868-08537f753f57",
+                                "x": 3,
+                                "y": 4,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "2f9c11d7-b5c9-4797-832a-59ff4503abf4",
                             "command": "EVENT_END"
                         }
                     ]
@@ -1124,7 +1196,8 @@
                     "args": {
                         "variable": "100",
                         "operator": "==",
-                        "comparator": 10
+                        "comparator": 10,
+                        "__collapse": false
                     },
                     "true": [
                         {
@@ -1310,15 +1383,6 @@
                                             },
                                             "true": [
                                                 {
-                                                    "id": "456be6fa-0811-4e79-b1ae-6c3de91c8988",
-                                                    "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
-                                                    "args": {
-                                                        "speedIn": 1,
-                                                        "speedOut": "0",
-                                                        "speed": "0"
-                                                    }
-                                                },
-                                                {
                                                     "id": "aa6d2ce9-91bd-4d49-8efd-b8bcf17b5dbb",
                                                     "command": "EVENT_IF_VALUE",
                                                     "args": {
@@ -1366,35 +1430,13 @@
                                                             "id": "d1a16659-1f0c-4887-885e-f0ad225dbe99",
                                                             "command": "EVENT_TEXT",
                                                             "args": {
-                                                                "text": "Necia grasped\nthe gem incrusted\ninto her chest,"
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "aeab4521-074a-4e5e-acce-365fe732207b",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "(a magical\naparatus that\ngave her songs"
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "6fa464d5-2cf3-4190-9b13-c8be67d06166",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "enchanting power)\nshe grasped it\ngently, as if"
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "a5386b3b-8a6e-442b-81d3-38558e3b2ba0",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "either seeking\ncomfort in it or\nquestioning its "
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "07497ec0-1742-427c-acce-c0dedc3b66c2",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "presence in her\nbody. "
+                                                                "text": [
+                                                                    "Necia grasped\nthe gem incrusted\ninto her chest,",
+                                                                    "(a magical\naparatus that\ngave her songs",
+                                                                    "enchanting power)\nshe grasped it\ngently, as if",
+                                                                    "either seeking\ncomfort in it or\nquestioning its ",
+                                                                    "presence in her\nbody. "
+                                                                ]
                                                             }
                                                         },
                                                         {
@@ -1457,44 +1499,13 @@
                                                             "id": "09b6676b-9f21-4460-8087-d6e2a2505b06",
                                                             "command": "EVENT_TEXT",
                                                             "args": {
-                                                                "text": "As sea approached\nNecia, the siren\nmuttered a small"
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "c25121c4-8ee7-4078-ba3c-4ef4986d48ae",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "and unsure\ngreeting, unsure\nof whether  the"
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "cae3e47c-9eed-46cc-b4b8-6683d90db5a0",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "the earthling\nwould speak to\nher."
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "88294d88-0ced-40c9-bb3d-c28fb820d43d",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "Her heart\nfluttered\narhythmically,"
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "7f9dd0c6-77af-4c64-bbd5-2f17c91b92a6",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "in the same way\nher voice often\ndid."
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "01310d08-8232-4abd-977a-fcbc49d34e51",
-                                                            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
-                                                            "args": {
-                                                                "speedIn": 1,
-                                                                "speedOut": 1,
-                                                                "speed": 1
+                                                                "text": [
+                                                                    "As sea approached\nNecia, the siren\nmuttered a small",
+                                                                    "and unsure\ngreeting, unsure\nof whether the",
+                                                                    "the earthling\nwould speak to\nher.",
+                                                                    "Her heart\nfluttered\narhythmically,",
+                                                                    "in the same way\nher voice often\ndid."
+                                                                ]
                                                             }
                                                         },
                                                         {
@@ -2317,7 +2328,8 @@
                             "args": {
                                 "variable": "100",
                                 "operator": "==",
-                                "comparator": 10
+                                "comparator": 10,
+                                "__collapseElse": true
                             },
                             "true": [
                                 {
@@ -2408,7 +2420,8 @@
                                                     "args": {
                                                         "input": [
                                                             "up"
-                                                        ]
+                                                        ],
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
@@ -2443,7 +2456,8 @@
                                                     "args": {
                                                         "input": [
                                                             "left"
-                                                        ]
+                                                        ],
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
@@ -2471,7 +2485,8 @@
                                                     "args": {
                                                         "input": [
                                                             "right"
-                                                        ]
+                                                        ],
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
@@ -2499,7 +2514,8 @@
                                                     "args": {
                                                         "input": [
                                                             "select"
-                                                        ]
+                                                        ],
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
@@ -2550,7 +2566,8 @@
                                                                     "id": "236b32f2-f567-45ec-812b-204d80f4f24f",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
-                                                                        "text": "Leaf looks at Leaf\nlooks at Leaf\nlooks at"
+                                                                        "text": "Leaf looks at Leaf\nlooks at Leaf\nlooks at",
+                                                                        "__collapse": false
                                                                     }
                                                                 },
                                                                 {
@@ -2571,42 +2588,31 @@
                                                             "args": {
                                                                 "variable": "101",
                                                                 "operator": "==",
-                                                                "comparator": 2
+                                                                "comparator": 2,
+                                                                "__collapseElse": true
                                                             },
                                                             "true": [
                                                                 {
                                                                     "id": "9630e899-525b-4880-848f-a4be1dee6423",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
-                                                                        "text": "Leaf, his wings\nhiden by the\ncloack he wore"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "27d14e10-70f3-47ef-8032-1be33886b12b",
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": "over his armor,\ngave Necia a\nquestioning look"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "a53ba32c-e6c0-4a59-a6e3-f70ce5d329ad",
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": "with his usual\nwelcoming smile."
+                                                                        "text": [
+                                                                            "Leaf, his wings\nhiden by the\ncloack he wore",
+                                                                            "over his armor,\ngave Necia a\nquestioning look",
+                                                                            "with his usual\nwelcoming smile."
+                                                                        ],
+                                                                        "__collapse": true
                                                                     }
                                                                 },
                                                                 {
                                                                     "id": "f669c097-fee9-464c-a4e4-e85b633ac80e",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
-                                                                        "text": "Most days one\ncould even forget\nthat he was"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "c82d7615-66b6-480a-843d-87d134a1965e",
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": "infected by a\ntaint beast, even."
+                                                                        "text": [
+                                                                            "Most days one\ncould even forget\nthat he was",
+                                                                            "infected by a\ntaint beast, even."
+                                                                        ],
+                                                                        "__collapse": false
                                                                     }
                                                                 },
                                                                 {
@@ -2627,35 +2633,31 @@
                                                             "args": {
                                                                 "variable": "101",
                                                                 "operator": "==",
-                                                                "comparator": 3
+                                                                "comparator": 3,
+                                                                "__collapseElse": true
                                                             },
                                                             "true": [
                                                                 {
                                                                     "id": "994d5cfa-f064-4f7b-9916-405c447b5432",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
-                                                                        "text": "Sea couldn't see\nLeaf, being blind,\nbut sill"
+                                                                        "text": [
+                                                                            "Sea couldn't see\nLeaf, being blind,\nbut sill",
+                                                                            "heard his\nbreathing, which\nstill held that ",
+                                                                            "faint, stressed\nworry that\nironically",
+                                                                            "made him less\nready for danger."
+                                                                        ],
+                                                                        "__collapse": false
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "ece3a539-c8cf-4ed4-a53e-cc44e25ee730",
+                                                                    "id": "536fbe70-2053-445e-a44f-4abba49074ef",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
-                                                                        "text": "listened to his\nbreathing, which\nstill held that "
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "428c6d72-aaee-4c8a-b77d-2e5baeb48073",
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": "faint, stressed\nworry that\nironically"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "b491d134-fae6-4adb-92d4-61a0b9b7dcbb",
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": "made him less\nready for danger."
+                                                                        "text": [
+                                                                            "Still, when she\nthought of how\nunready he had",
+                                                                            "been"
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
@@ -2688,7 +2690,8 @@
                                                     "args": {
                                                         "input": [
                                                             "start"
-                                                        ]
+                                                        ],
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
@@ -3234,18 +3237,30 @@
             "actors": [
                 {
                     "id": "0b63d105-a3f0-4648-bede-578e533c839f",
-                    "spriteSheetId": "08dc7252-3163-44ce-a963-9dc1ef61e84a",
+                    "spriteSheetId": "a926978b-d415-4863-96a7-dcc6ed1bd143",
                     "x": 10,
                     "y": 4,
                     "movementType": "static",
                     "direction": "down",
                     "script": [
                         {
+                            "id": "1087ef3a-0503-46de-9327-00058c4b2c37",
+                            "command": "EVENT_SCENE_PUSH_STATE",
+                            "args": {}
+                        },
+                        {
+                            "id": "dd4934ed-b834-4d77-9e65-ba8a8d3b287d",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "199"
+                            }
+                        },
+                        {
                             "id": "ccda6ce9-c037-46a4-9686-5abe9c5b5475",
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "78939415-5d34-498c-b868-08537f753f57",
-                                "x": 6,
+                                "x": 3,
                                 "y": 4,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -3256,7 +3271,7 @@
                             "command": "EVENT_END"
                         }
                     ],
-                    "name": "Broken"
+                    "name": "Broken machine actor"
                 },
                 {
                     "id": "efcb301b-6a16-4a19-96cf-611d79ae9e34",
@@ -3694,7 +3709,10 @@
                     "args": {
                         "variable": "101",
                         "operator": "==",
-                        "comparator": 3
+                        "comparator": 3,
+                        "__collapseElse": true,
+                        "__label": "Heart Event and hiding Sea",
+                        "__collapse": true
                     },
                     "true": [
                         {
@@ -3710,7 +3728,8 @@
                             "args": {
                                 "variable": "7",
                                 "operator": "==",
-                                "comparator": 2
+                                "comparator": 2,
+                                "__collapseElse": true
                             },
                             "true": [
                                 {
@@ -3751,7 +3770,10 @@
                     "args": {
                         "variable": "101",
                         "operator": "==",
-                        "comparator": 1
+                        "comparator": 1,
+                        "__collapseElse": true,
+                        "__label": "Hiding Leaf",
+                        "__collapse": true
                     },
                     "true": [
                         {
@@ -3769,6 +3791,150 @@
                     "false": [
                         {
                             "id": "d7630d9b-5389-4b05-be24-764260660f30",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "id": "0f6546d8-f8ec-43b4-90bd-a888b892235f",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "199",
+                        "__collapseElse": true
+                    },
+                    "true": [
+                        {
+                            "id": "bdce74c6-165e-4cab-ae94-bcb1c0e9ce75",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "199"
+                            }
+                        },
+                        {
+                            "id": "f9e582c3-329e-4830-9771-670443c1190c",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "200",
+                                "__collapseElse": true
+                            },
+                            "true": [
+                                {
+                                    "id": "628842fc-df08-4fd8-a6c2-dce112285b7d",
+                                    "command": "EVENT_IF_TRUE",
+                                    "args": {
+                                        "variable": "53",
+                                        "__collapseElse": true
+                                    },
+                                    "true": [
+                                        {
+                                            "id": "89fe7fee-f79c-4248-ad46-f33ac1510869",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "101",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": true,
+                                                "__collapse": true
+                                            },
+                                            "true": [
+                                                {
+                                                    "id": "3765cb97-dc07-4300-843e-45c1c8df22a4",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You repair the\nmachine in an\ninstant with the",
+                                                            "wrench and belt\nthat Sea found."
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ce781afd-66e3-41fb-9824-c1e0ed9a1bb9",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Fifteen minutes\nlater, Sea pulls\nyou away from",
+                                                            "examining the\nmachine."
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "c4b25c56-203a-4764-8524-33c484f996c0",
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "300"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "51e3f8a1-88d9-4065-9c53-d883c3ba6329",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "3faca289-90b6-4566-99b1-7c584eb9111b",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You fuddle with\nthe machine for\na moment before",
+                                                            "giving up. Leaf is\nthe mechanic here."
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "9d4d7849-a879-49a1-8acb-79a5badc1dfb",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "20f2630d-f83d-42a6-b74d-974e82091611",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "c47e7faf-5278-40f8-9173-7911d1a47c3a",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "You try to fit the\nbelt into its\nplace, but lack",
+                                                    "the proper tools."
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "b21fc30a-bafb-4de4-8272-475e6d282e7a",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1cb50544-fe65-40c1-841d-baa970c38a5a",
+                                    "command": "EVENT_END"
+                                }
+                            ],
+                            "false": [
+                                {
+                                    "id": "c839925d-1c25-4d98-8c75-7d1fc17f6635",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                        "text": "You don't think\nyou have the\nparts..."
+                                    }
+                                },
+                                {
+                                    "id": "ed9d1ac6-0647-4d62-9038-6288b6e53ad4",
+                                    "command": "EVENT_END"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "29e7ec01-2ce2-4bde-a5fa-e6d2c3ac707d",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "false": [
+                        {
+                            "id": "e7e62282-7e2c-4e36-bbca-82a0c2ba6418",
                             "command": "EVENT_END"
                         }
                     ]
@@ -4456,14 +4622,10 @@
                                             "id": "ac7cea98-0061-4894-9f49-cf448cac1761",
                                             "command": "EVENT_TEXT",
                                             "args": {
-                                                "text": "There's only\nenough for a\nperson."
-                                            }
-                                        },
-                                        {
-                                            "id": "08268bbf-6eca-4059-bdcc-079a0f447ca6",
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": "And you don't like\nit. Booze is\nbetter."
+                                                "text": [
+                                                    "There's only\nenough for a\nperson.",
+                                                    "And you don't like\nit. Booze is\nbetter."
+                                                ]
                                             }
                                         },
                                         {
@@ -4658,14 +4820,10 @@
                                     "id": "297244e4-f0fe-47a6-8f43-bc9f1ffc5c8c",
                                     "command": "EVENT_TEXT",
                                     "args": {
-                                        "text": "Press SELECT to\nlook for things."
-                                    }
-                                },
-                                {
-                                    "id": "136b9e19-2b9a-4cf4-84b9-4ab7d89051e7",
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                        "text": "Press B for your\nown location."
+                                        "text": [
+                                            "Press A+B to feel\nthe room for\npoints of",
+                                            "interest.\nPress B for your\nown location."
+                                        ]
                                     }
                                 },
                                 {
@@ -4756,60 +4914,18 @@
             ],
             "script": [
                 {
-                    "id": "4a12a1ee-a2f6-4abe-9385-dcff9593414f",
-                    "command": "EVENT_LOOP",
-                    "args": {},
+                    "id": "33ce4206-64a9-4ad9-ae36-43be7229353f",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": "b"
+                    },
                     "true": [
-                        {
-                            "id": "2db1fc4b-0bbc-45a3-88c3-ae8842461ea8",
-                            "command": "EVENT_SET_BG_SCRIPT",
-                            "args": {}
-                        },
-                        {
-                            "id": "06db7043-e85b-41a3-9b68-d516de794f7f",
-                            "command": "EVENT_AWAIT_INPUT",
-                            "args": {
-                                "input": [
-                                    "b",
-                                    "select"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "6b4476e8-e76b-4ca5-a496-018558bd5b96",
-                            "command": "EVENT_IF_INPUT",
-                            "args": {
-                                "input": [
-                                    "b"
-                                ]
-                            },
-                            "true": [
-                                {
-                                    "id": "63a2f596-5003-4e48-b4e6-cf65c9b0d6ec",
-                                    "command": "EVENT_ACTOR_EMOTE",
-                                    "args": {
-                                        "actorId": "player",
-                                        "emoteId": "3"
-                                    }
-                                },
-                                {
-                                    "id": "61ca728e-b034-425c-afd5-3134a2acbaa1",
-                                    "command": "EVENT_END"
-                                }
-                            ],
-                            "false": [
-                                {
-                                    "id": "f1a78d2f-ec4f-47c3-be8f-3d9ba82c1171",
-                                    "command": "EVENT_END"
-                                }
-                            ]
-                        },
                         {
                             "id": "0fa803c2-ca32-452e-9a18-8f9835b77778",
                             "command": "EVENT_IF_INPUT",
                             "args": {
                                 "input": [
-                                    "select"
+                                    "a"
                                 ]
                             },
                             "true": [
@@ -4865,7 +4981,37 @@
                             ]
                         },
                         {
-                            "id": "f5044ad9-2ad7-4da5-becb-7946240a9216",
+                            "id": "6b4476e8-e76b-4ca5-a496-018558bd5b96",
+                            "command": "EVENT_IF_INPUT",
+                            "args": {
+                                "input": [
+                                    "b"
+                                ],
+                                "__collapseElse": true
+                            },
+                            "true": [
+                                {
+                                    "id": "63a2f596-5003-4e48-b4e6-cf65c9b0d6ec",
+                                    "command": "EVENT_ACTOR_EMOTE",
+                                    "args": {
+                                        "actorId": "player",
+                                        "emoteId": "3"
+                                    }
+                                },
+                                {
+                                    "id": "61ca728e-b034-425c-afd5-3134a2acbaa1",
+                                    "command": "EVENT_END"
+                                }
+                            ],
+                            "false": [
+                                {
+                                    "id": "f1a78d2f-ec4f-47c3-be8f-3d9ba82c1171",
+                                    "command": "EVENT_END"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "70eecd68-67ee-4793-9d5e-01763eb02d13",
                             "command": "EVENT_END"
                         }
                     ]
@@ -4880,7 +5026,7 @@
             "id": "c22d723b-211d-4792-a3ff-f845b276b8b4",
             "name": "[3] Sea Converter",
             "backgroundId": "0e4394d4-3679-4838-ac29-d3d0edfa068c",
-            "x": 72.84181313598526,
+            "x": 71.84181313598526,
             "y": 842.4065679925998,
             "width": 32,
             "height": 32,
@@ -5199,7 +5345,8 @@
                                             "args": {
                                                 "input": [
                                                     "select"
-                                                ]
+                                                ],
+                                                "__collapseElse": true
                                             },
                                             "true": [
                                                 {
@@ -5243,7 +5390,8 @@
                                                     "args": {
                                                         "variable": "101",
                                                         "operator": "==",
-                                                        "comparator": 1
+                                                        "comparator": 1,
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
@@ -5271,7 +5419,8 @@
                                                     "args": {
                                                         "variable": "101",
                                                         "operator": "==",
-                                                        "comparator": 2
+                                                        "comparator": 2,
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
@@ -5311,7 +5460,8 @@
                                             "args": {
                                                 "input": [
                                                     "start"
-                                                ]
+                                                ],
+                                                "__collapseElse": true
                                             },
                                             "true": [
                                                 {
@@ -5374,8 +5524,8 @@
             "id": "16908c93-0d6b-4ea0-908a-96a7a190e3d2",
             "name": "[16] Test Tube",
             "backgroundId": "99d2ae75-9b14-4b78-bb05-2b17c4ac3337",
-            "x": 1100.6136513990778,
-            "y": 651.894986384203,
+            "x": 1093.1136513990778,
+            "y": 681.394986384203,
             "width": 32,
             "height": 32,
             "actors": [
@@ -5648,8 +5798,8 @@
             "id": "52ae6bd8-2653-43d0-a9bf-51f29c4bf7bf",
             "name": "[17] Blast Room",
             "backgroundId": "24faf649-2c28-4a5c-aab2-b36aa9771899",
-            "x": 453,
-            "y": 305.5,
+            "x": 422.5,
+            "y": 333,
             "width": 32,
             "height": 32,
             "actors": [
@@ -5786,20 +5936,20 @@
                 0,
                 134,
                 26,
-                0,
-                96,
-                168,
+                224,
+                99,
+                160,
                 253,
                 31,
-                134,
+                158,
                 27,
                 0,
-                96,
-                168,
+                32,
+                185,
                 1,
                 0,
-                254,
-                26,
+                242,
+                27,
                 0,
                 32,
                 160,
@@ -5872,7 +6022,7 @@
             "id": "31e1d9a0-1f55-454f-a372-f3a78da09d50",
             "name": "Seiva",
             "backgroundId": "57de5858-b218-413d-81f0-8f9317e7e350",
-            "x": 60,
+            "x": 61,
             "y": 1051,
             "width": 20,
             "height": 18,
@@ -5982,6 +6132,13 @@
                                             "args": {}
                                         },
                                         {
+                                            "id": "859e097f-0463-405d-853f-233634e9c748",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": "Game saved!"
+                                            }
+                                        },
+                                        {
                                             "id": "36717d8a-8d42-4086-b16a-564c41a7486a",
                                             "command": "EVENT_SCENE_POP_STATE",
                                             "args": {
@@ -6017,7 +6174,7 @@
                                             "id": "fe34fd75-4dbe-4459-996c-f6d8521a2e63",
                                             "command": "EVENT_TEXT",
                                             "args": {
-                                                "text": "Others:^\n<:Here) (You:>"
+                                                "text": "Others:^\n<:Here) (Seiva:>"
                                             }
                                         },
                                         {
@@ -6047,14 +6204,15 @@
                                                     "args": {
                                                         "input": [
                                                             "up"
-                                                        ]
+                                                        ],
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
                                                             "id": "d9822c7f-af38-4f1f-b6f3-2e2c58eac321",
                                                             "command": "EVENT_TEXT",
                                                             "args": {
-                                                                "text": "You're such a\nlovely and curious\nbunch."
+                                                                "text": "\"You're such a\nlovely and curious\nbunch.\""
                                                             }
                                                         },
                                                         {
@@ -6082,42 +6240,26 @@
                                                             "id": "3c70bd66-be31-4627-b9b8-b99823764603",
                                                             "command": "EVENT_TEXT",
                                                             "args": {
-                                                                "text": "This used to be\none of Quesque's\ntest rooms,"
+                                                                "text": [
+                                                                    "\"This used to be\none of Quesque's\ntest rooms,",
+                                                                    "Made to contain\nthe magics weaved\nby his music.",
+                                                                    "But he needed to\nbuild a new\nreactor directly",
+                                                                    "under it, and it\nbecame dangerous\nto be in.\""
+                                                                ]
                                                             }
                                                         },
                                                         {
                                                             "id": "540e4bdb-8b11-42fb-bbdd-ce6ab41a1966",
                                                             "command": "EVENT_TEXT",
                                                             "args": {
-                                                                "text": "Made to contain\nthe magics weaved\nby his music."
+                                                                "text": "\"Me? I like it,\nit's toasty here\nnear the crack.\""
                                                             }
                                                         },
                                                         {
                                                             "id": "2f1c2096-7fc9-44be-9d6a-b9de9f5b3201",
                                                             "command": "EVENT_TEXT",
                                                             "args": {
-                                                                "text": "But he needed to\nbuild a new\nreactor directly"
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "6c27934d-85d5-41ba-a4c4-05bdb3cf6900",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "under it, and it\nbecame dangerous\nto be in."
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "4d8c333a-d94c-49ee-b4fd-3de18a5e6035",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "Me? I like it,\nit's toasty here\nnear the crack."
-                                                            }
-                                                        },
-                                                        {
-                                                            "id": "df718958-a527-4e98-8023-62a922917bc0",
-                                                            "command": "EVENT_TEXT",
-                                                            "args": {
-                                                                "text": "But you shouldn't\nstay for more than\na few hours..."
+                                                                "text": "\"But you shouldn't\nstay for more than\na few hours...\""
                                                             }
                                                         },
                                                         {
@@ -6138,14 +6280,46 @@
                                                     "args": {
                                                         "input": [
                                                             "right"
-                                                        ]
+                                                        ],
+                                                        "__collapseElse": true
                                                     },
                                                     "true": [
                                                         {
                                                             "id": "44ad3747-a5ce-4f42-9f53-cead1af884f2",
                                                             "command": "EVENT_TEXT",
                                                             "args": {
-                                                                "text": "I was worried\nabout you going\ninto the water."
+                                                                "text": "\"I suppose I\nhaven't told you,\nhave I?\""
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "42a30240-adfe-4f5f-bdc9-a5760b2d6d9b",
+                                                            "command": "EVENT_TEXT",
+                                                            "args": {
+                                                                "text": [
+                                                                    "\"Once upon a time,\nwhen Cirs hadn't\nbeen shunned for",
+                                                                    "Cir Quesque's\nallegedly sinful\nactions, they",
+                                                                    "felt great pride\non their magics.\""
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "cb431897-9be4-409b-b7c7-3353818a7b03",
+                                                            "command": "EVENT_TEXT",
+                                                            "args": {
+                                                                "text": [
+                                                                    "\"As a way to show\nthis, they made\nmachines that",
+                                                                    "thought. We are\ncalled 'Pah'wops.\""
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "d4dd057b-31bf-4070-898a-f7e74fde27e6",
+                                                            "command": "EVENT_TEXT",
+                                                            "args": {
+                                                                "text": [
+                                                                    "\"I am Quesque's,\nand my duty yet\nremains to",
+                                                                    "keep his melody\nalive.\""
+                                                                ]
                                                             }
                                                         },
                                                         {
@@ -6175,7 +6349,8 @@
                                                             "args": {
                                                                 "variable": "101",
                                                                 "operator": "==",
-                                                                "comparator": 0
+                                                                "comparator": 0,
+                                                                "__collapseElse": true
                                                             },
                                                             "true": [
                                                                 {
@@ -6210,14 +6385,22 @@
                                                             "args": {
                                                                 "variable": "101",
                                                                 "operator": "==",
-                                                                "comparator": 1
+                                                                "comparator": 1,
+                                                                "__collapseElse": true
                                                             },
                                                             "true": [
                                                                 {
                                                                     "id": "6e6b5d94-4f37-4d6e-8dbe-364c32669942",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
-                                                                        "text": "Leaf looks at Leaf\nlooks at Leaf\nlooks at"
+                                                                        "text": "Leaf tried to\nexamine the\nsilver,"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "0416fd07-499c-4893-a67b-681696fb8f33",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": "turtlelike\nautomaton\ndiscretely,  "
                                                                     }
                                                                 },
                                                                 {
@@ -6238,7 +6421,8 @@
                                                             "args": {
                                                                 "variable": "101",
                                                                 "operator": "==",
-                                                                "comparator": 2
+                                                                "comparator": 2,
+                                                                "__collapseElse": true
                                                             },
                                                             "true": [
                                                                 {
@@ -6266,7 +6450,8 @@
                                                             "args": {
                                                                 "variable": "101",
                                                                 "operator": "==",
-                                                                "comparator": 3
+                                                                "comparator": 3,
+                                                                "__collapseElse": true
                                                             },
                                                             "true": [
                                                                 {
@@ -6375,11 +6560,68 @@
             "id": "78939415-5d34-498c-b868-08537f753f57",
             "name": "Inventory Screen",
             "backgroundId": "d12b2c84-c254-4c86-b9bf-4ed5bea25559",
-            "x": 668.031914893617,
+            "x": 667.531914893617,
             "y": 30,
             "width": 32,
             "height": 24,
             "actors": [
+                {
+                    "id": "edbee4fc-ddeb-4ab6-b91e-e1c54e6964bc",
+                    "spriteSheetId": "4a5cb5b5-d6c2-4f1d-bb2a-e928d740d534",
+                    "x": 16,
+                    "y": 10,
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "name": "Bottle",
+                    "script": [
+                        {
+                            "id": "a91b2bad-ec1b-4b7e-8813-4fb3070cb45c",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "A bottle of\nfish oil which Sea\nfound near the",
+                                    "entrance of the\nresearch complex."
+                                ]
+                            }
+                        },
+                        {
+                            "id": "29f91da3-ddcf-4456-8a70-5b36ecbfc72c",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "While it can be\nused for cooking,\nsuch savory oils",
+                                    "are often drank\nfor their fine\nflavor and, on",
+                                    "ocasion, to help\ndigestion or other\nmedicinal",
+                                    "purposes."
+                                ]
+                            }
+                        },
+                        {
+                            "id": "9c97f42a-3f69-44a6-83f3-c6b0f0c767b1",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "Sea can give it to\neither Necia or\nLeaf."
+                            }
+                        },
+                        {
+                            "id": "66fd73bc-0931-4bbc-8e86-5a756a499c09",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "The option will be\ngiven\nautomatically",
+                                    "by talking to\neither near the\nthe spot where",
+                                    "it was found."
+                                ]
+                            }
+                        },
+                        {
+                            "id": "dc2ca8ed-dd65-4cf7-9278-559d3ea6baf5",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
                 {
                     "id": "5be830b1-0ce3-4aa3-a5bf-99b113c4a205",
                     "spriteSheetId": "8af8fc1c-0475-4c4d-a47f-120e3c8e0f04",
@@ -6387,11 +6629,213 @@
                     "y": 2,
                     "movementType": "static",
                     "direction": "down",
-                    "name": "Belt"
+                    "name": "Belt",
+                    "frame": 0,
+                    "animate": false,
+                    "script": [
+                        {
+                            "id": "da27b9fb-de93-4703-a855-69a5e168399b",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "54",
+                                "__collapseElse": true,
+                                "__label": "If has belt",
+                                "__collapse": false
+                            },
+                            "true": [
+                                {
+                                    "id": "225d1a5e-b66d-409b-8a89-e3d8539c0719",
+                                    "command": "EVENT_IF_TRUE",
+                                    "args": {
+                                        "variable": "199",
+                                        "__collapse": true,
+                                        "__collapseElse": true,
+                                        "__label": "Slow down if at an use spot"
+                                    },
+                                    "true": [
+                                        {
+                                            "id": "d496e813-751b-4154-9221-ecbf3421e1b8",
+                                            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "speedIn": 1,
+                                                "speedOut": 1,
+                                                "speed": "5"
+                                            }
+                                        },
+                                        {
+                                            "id": "c2f832f0-b7d7-489f-8589-ffa51712df12",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "47d642d4-54a4-4b17-8376-9d337a727f7a",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "66897ab0-8bf9-4ebd-8fd7-f5c3bc6c6f66",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                        "text": "It's a belt, used\nin machines."
+                                    }
+                                },
+                                {
+                                    "id": "64a5ff1c-b3bc-42ed-8ba0-ea2d2167acc6",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                        "text": [
+                                            "It's obviously\nuseful for\nrepairs, but it ",
+                                            "may have other\nuses."
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "ebf77da7-891d-46e0-aca1-3c1ed5d52327",
+                                    "command": "EVENT_IF_TRUE",
+                                    "args": {
+                                        "variable": "199",
+                                        "__collapse": true,
+                                        "__collapseElse": true,
+                                        "__label": "Is it an use spot?"
+                                    },
+                                    "true": [
+                                        {
+                                            "id": "966a846c-f316-49ae-ab1e-c0c13ee7e11d",
+                                            "command": "EVENT_CHOICE",
+                                            "args": {
+                                                "variable": "200",
+                                                "trueText": "Use the belt",
+                                                "falseText": "Don't use it."
+                                            }
+                                        },
+                                        {
+                                            "id": "f8ee5515-033b-44f4-9bf6-7057e0c9c340",
+                                            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+                                            "args": {
+                                                "speedIn": 1,
+                                                "speedOut": 1,
+                                                "speed": "1"
+                                            }
+                                        },
+                                        {
+                                            "id": "22b6265c-8532-4445-819b-61c9e387b3a5",
+                                            "command": "EVENT_SCENE_POP_STATE",
+                                            "args": {
+                                                "fadeSpeed": "2"
+                                            }
+                                        },
+                                        {
+                                            "id": "21919d20-83ea-45f2-9370-4c08185214b3",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "a78ae835-f07a-4b69-8205-ddb1c7a0355a",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "629d74d9-a192-4048-82ec-e10d232df6e9",
+                                    "command": "EVENT_END"
+                                }
+                            ],
+                            "false": [
+                                {
+                                    "id": "1ef3e68f-9852-4a85-977d-fa9d1f72e7b1",
+                                    "command": "EVENT_END"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ea5f444f-33d3-4fbd-af3e-7749390e531a",
+                            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+                            "args": {
+                                "speedIn": 1,
+                                "speedOut": 1,
+                                "speed": "1"
+                            }
+                        },
+                        {
+                            "id": "b9cc5783-c4c8-4fce-adc3-80d8d5833acc",
+                            "command": "EVENT_END"
+                        }
+                    ]
                 }
             ],
-            "triggers": [],
-            "collisions": [],
+            "triggers": [
+                {
+                    "id": "973f8e89-cb43-4f59-9ba3-e670a858b86c",
+                    "x": 2,
+                    "y": 0,
+                    "width": 2,
+                    "height": 2,
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "1a62ade4-6cf7-4070-ba02-c6d44e1492a7",
+                            "command": "EVENT_SCENE_POP_STATE",
+                            "args": {
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "dc2ca8ed-dd65-4cf7-9278-559d3ea6baf5",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
+            "collisions": [
+                19,
+                0,
+                56,
+                255,
+                255,
+                193,
+                24,
+                27,
+                0,
+                128,
+                1,
+                0,
+                24,
+                0,
+                128,
+                193,
+                24,
+                27,
+                0,
+                128,
+                1,
+                0,
+                24,
+                0,
+                128,
+                193,
+                24,
+                27,
+                0,
+                128,
+                1,
+                0,
+                24,
+                0,
+                128,
+                73,
+                146,
+                252,
+                255,
+                255,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
             "script": [
                 {
                     "id": "bd36d10e-9cde-4688-a383-c54010ccd71e",
@@ -6401,73 +6845,137 @@
                     }
                 },
                 {
-                    "id": "b211802a-ce4e-4fed-a998-905f2a70896f",
+                    "id": "4654279a-7a4d-4dad-8e1e-6ee87ed2cb5d",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "edbee4fc-ddeb-4ab6-b91e-e1c54e6964bc"
+                    }
+                },
+                {
+                    "id": "61e7bee3-d6f6-4201-97b2-0259a15f5bbd",
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "54",
-                        "__collapseElse": true
+                        "__collapseElse": true,
+                        "__label": "If has belt",
+                        "__collapse": true
                     },
                     "true": [
                         {
-                            "id": "55b3d855-9c36-430a-bad4-5e600170f8e4",
+                            "id": "deedbb49-94c7-4706-8dec-e14659116646",
                             "command": "EVENT_ACTOR_SHOW",
                             "args": {
                                 "actorId": "5be830b1-0ce3-4aa3-a5bf-99b113c4a205"
                             }
                         },
                         {
-                            "id": "77b5ca36-e958-446e-a2e4-4f1c70fa8242",
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "id": "1428fafa-687a-4085-970c-26c628d055ce",
+                            "command": "EVENT_ACTOR_SET_FRAME",
                             "args": {
                                 "actorId": "5be830b1-0ce3-4aa3-a5bf-99b113c4a205",
-                                "direction": "down"
+                                "frame": 0
                             }
                         },
                         {
-                            "id": "59510099-ff46-4bdb-b20a-4743c2847606",
+                            "id": "8b53eb6f-30ca-4a76-b549-5931d617eea2",
                             "command": "EVENT_END"
                         }
                     ],
                     "false": [
                         {
-                            "id": "243a84b2-492d-4c3c-ac1c-5e4733f68c7c",
+                            "id": "ae028653-d3bb-4052-94f1-1b5c0ec4108f",
                             "command": "EVENT_END"
                         }
                     ]
                 },
                 {
-                    "id": "33e6464d-ac07-4ca0-a0f7-2ac21c7a0546",
-                    "command": "EVENT_OVERLAY_SHOW",
-                    "args": {
-                        "color": "white",
-                        "x": 0,
-                        "y": 15
-                    }
-                },
-                {
-                    "id": "fe3c4b3b-1622-418b-8506-6cc4509354de",
+                    "id": "712ee0df-b0c1-419c-8995-5fa2aece5125",
                     "command": "EVENT_IF_TRUE",
                     "args": {
-                        "variable": "53"
+                        "variable": "56",
+                        "__collapseElse": true,
+                        "__collapse": true,
+                        "__label": "If has Oil"
                     },
                     "true": [
                         {
-                            "id": "3085855f-cbbe-45b5-b0d0-917bbb8a3c2e",
-                            "command": "EVENT_OVERLAY_MOVE_TO",
+                            "id": "b6813f80-3ec5-4494-ab00-8d2b50dc9380",
+                            "command": "EVENT_ACTOR_SHOW",
                             "args": {
-                                "x": 3,
-                                "y": 15,
-                                "speed": "2"
+                                "actorId": "edbee4fc-ddeb-4ab6-b91e-e1c54e6964bc"
                             }
                         },
                         {
-                            "id": "d4260f09-ab28-4590-8f3e-2e3fe1ac5d53",
+                            "id": "50d08a82-dc6b-4ca2-a1d7-f4537233bbaa",
+                            "command": "EVENT_ACTOR_SET_FRAME",
+                            "args": {
+                                "actorId": "edbee4fc-ddeb-4ab6-b91e-e1c54e6964bc",
+                                "frame": 0
+                            }
+                        },
+                        {
+                            "id": "5005a442-48cb-4b15-b3ec-726400eb4ea6",
                             "command": "EVENT_END"
                         }
                     ],
                     "false": [
                         {
-                            "id": "b6dadda2-5573-4f88-896c-e7fde6782adc",
+                            "id": "8ebf4f5e-e4a5-4feb-b8e4-6072a0124515",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "id": "9a26ec74-1dd8-402f-ba3e-71464f70fba8",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Tools overlay",
+                        "__collapse": true
+                    },
+                    "true": [
+                        {
+                            "id": "33e6464d-ac07-4ca0-a0f7-2ac21c7a0546",
+                            "command": "EVENT_OVERLAY_SHOW",
+                            "args": {
+                                "color": "white",
+                                "x": 0,
+                                "y": 15,
+                                "__collapse": false
+                            }
+                        },
+                        {
+                            "id": "fe3c4b3b-1622-418b-8506-6cc4509354de",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "53",
+                                "__collapse": true,
+                                "__label": "If Has Wrench",
+                                "__collapseElse": true
+                            },
+                            "true": [
+                                {
+                                    "id": "3085855f-cbbe-45b5-b0d0-917bbb8a3c2e",
+                                    "command": "EVENT_OVERLAY_MOVE_TO",
+                                    "args": {
+                                        "x": 3,
+                                        "y": 15,
+                                        "speed": "2"
+                                    }
+                                },
+                                {
+                                    "id": "d4260f09-ab28-4590-8f3e-2e3fe1ac5d53",
+                                    "command": "EVENT_END"
+                                }
+                            ],
+                            "false": [
+                                {
+                                    "id": "b6dadda2-5573-4f88-896c-e7fde6782adc",
+                                    "command": "EVENT_END"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "75acfb1e-41e7-4a2d-a1b8-fcd672875fe9",
                             "command": "EVENT_END"
                         }
                     ]

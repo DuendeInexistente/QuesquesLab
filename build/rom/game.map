@@ -17,26 +17,26 @@ AREA .  .ABS.
 		l__LIT	0000
 		l__GSINITTAIL	0001
 		l__BSS	005E
-		l__CODE_5	01D0
 		l__BASE	01DA
 		l__HEADER	01E1
 		s__CODE	0200
+		l__CODE_5	0245
 		l__HOME	0312
-		l__DATA	04D9
-		l__GSINIT	05D7
+		l__DATA	04FD
+		l__GSINIT	0600
 		l__CODE_1	0671
-		l__CODE	16B0
-		s__HOME	18B0
-		s__BASE	1BC2
-		s__LIT	1D9C
-		s__GSINIT	1D9C
-		s__GSINITTAIL	2373
-		s__GSFINAL	2374
-		l__CODE_3	2486
-		l__CODE_4	2945
-		l__CODE_8	2AD2
-		l__CODE_6	377D
-		l__CODE_7	3FE7
+		l__CODE	15F5
+		s__HOME	17F5
+		s__BASE	1B07
+		s__LIT	1CE1
+		s__GSINIT	1CE1
+		s__GSINITTAIL	22E1
+		s__GSFINAL	22E2
+		l__CODE_3	273C
+		l__CODE_4	2AE8
+		l__CODE_8	2E68
+		l__CODE_7	3DC2
+		l__CODE_6	3EF9
 		s__CODE_1	4000
 		s__CODE_3	4000
 		s__CODE_4	4000
@@ -46,18 +46,18 @@ AREA .  .ABS.
 		s__CODE_8	4000
 		.OAM	C000
 		s__DATA	C0A0
-		s__BSS	C579
-		s__HEAP	C5D7
-		s__BSEG	C5D7
-		s__ISEG	C5D7
-		s__XSEG	C5D7
-		s__OVERLAY	C5D7
+		s__BSS	C59D
+		s__HEAP	C5FB
+		s__BSEG	C5FB
+		s__ISEG	C5FB
+		s__XSEG	C5FB
+		s__OVERLAY	C5FB
 		.STACK	E000
 		.refresh_OAM	FF80
 AREA _CODE
 	RADIX HEX
 	BASE 0200
-	SIZE 16B0
+	SIZE 15F5
 	ATTRIB REL CON
 	GLOBALS
 		_SceneInit	0200
@@ -74,86 +74,86 @@ AREA _CODE
 		_PopBank	057C
 		_SpritesReset	05BB
 		_ScriptStart	05E6
-		_ScriptRunnerUpdate	06D5
-		_ScriptLastFnComplete	0837
-		_UIInit	09D9
-		_ui_cursor_tiles	09EB
-		_ui_bg_tiles	09EC
-		_UIUpdate	09ED
-		_UIDrawFrame	09FF
-		_UIDrawDialogueFrame	0A24
-		_UIDrawText	0A3D
-		_UIDrawTextBkg	0A9E
-		_UIShowText	0AFF
-		_UIShowChoice	0DD7
-		_UISetTextBuffer	0E18
-		_UIDrawTextBuffer	0E49
-		_UIDrawTextBufferChar	0E5D
-		_UISetPos	1099
-		_UIMoveTo	10B0
-		_UIIsClosed	10DD
-		_UIOnInteract	1108
-		_UIAtDest	11DE
-		_UISetColor	120B
-		_SetBankedBkgData	1225
-		_SetBankedBkgTiles	1247
-		_SetBankedWinTiles	1271
-		_SetBankedSpriteData	129B
-		_ReadBankedUBYTE	12BD
-		_ReadBankedUBYTEArray	12D6
-		_ReadBankedUWORD	130C
-		_StrCpyBanked	1357
-		_ReadBankedBankPtr	1389
-		_ClampUBYTE	13C3
-		_StackPush	13DF
-		_StackPop	13FE
-		_FadeInit	141D
-		_FadeIn	1439
-		_FadeOut	145E
-		_FadeUpdate	149D
-		_FadeSetSpeed	1523
-		_IsFading	1534
-		gbt_get_pattern_ptr	1539
-		_gbt_play	1556
-		_gbt_pause	1611
-		_gbt_loop	161D
-		_gbt_stop	1624
-		_gbt_enable_channels	162F
-		_gbt_update	1636
-		_rand	173B
-		_randw	173B
-		__mulschar_rrx_s	1766
-		__mulschar_rrx_hds	176D
-		__muluchar_rrx_s	1779
-		__mulsint_rrx_s	1786
-		__muluint_rrx_s	1786
-		__mulsint_rrx_hds	1792
-		__muluint_rrx_hds	1792
-		__muluchar_rrx_hds	1792
-		__divschar_rrx_s	17AE
-		__divschar_rrx_hds	17B5
-		__modschar_rrx_s	17BC
-		__modschar_rrx_hds	17C3
-		__divsint_rrx_s	17C8
-		__divsint_rrx_hds	17D4
-		__modsint_rrx_s	17DC
-		__modsint_rrx_hds	17E8
-		__divuchar_rrx_s	17EE
-		__divuchar_rrx_hds	17F5
-		__moduchar_rrx_s	17FC
-		__moduchar_rrx_hds	1803
-		__divuint_rrx_s	1808
-		__divuint_rrx_hds	1814
-		__moduint_rrx_s	181C
-		__moduint_rrx_hds	1828
-		.mod8	182E
-		.div8	182E
-		.mod16	1836
-		.div16	1836
-		.modu8	1870
-		.divu8	1870
-		.modu16	1873
-		.divu16	1873
+		_ScriptRunnerUpdate	0656
+		_ScriptLastFnComplete	077C
+		_UIInit	091E
+		_ui_cursor_tiles	0930
+		_ui_bg_tiles	0931
+		_UIUpdate	0932
+		_UIDrawFrame	0944
+		_UIDrawDialogueFrame	0969
+		_UIDrawText	0982
+		_UIDrawTextBkg	09E3
+		_UIShowText	0A44
+		_UIShowChoice	0D1C
+		_UISetTextBuffer	0D5D
+		_UIDrawTextBuffer	0D8E
+		_UIDrawTextBufferChar	0DA2
+		_UISetPos	0FDE
+		_UIMoveTo	0FF5
+		_UIIsClosed	1022
+		_UIOnInteract	104D
+		_UIAtDest	1123
+		_UISetColor	1150
+		_SetBankedBkgData	116A
+		_SetBankedBkgTiles	118C
+		_SetBankedWinTiles	11B6
+		_SetBankedSpriteData	11E0
+		_ReadBankedUBYTE	1202
+		_ReadBankedUBYTEArray	121B
+		_ReadBankedUWORD	1251
+		_StrCpyBanked	129C
+		_ReadBankedBankPtr	12CE
+		_ClampUBYTE	1308
+		_StackPush	1324
+		_StackPop	1343
+		_FadeInit	1362
+		_FadeIn	137E
+		_FadeOut	13A3
+		_FadeUpdate	13E2
+		_FadeSetSpeed	1468
+		_IsFading	1479
+		gbt_get_pattern_ptr	147E
+		_gbt_play	149B
+		_gbt_pause	1556
+		_gbt_loop	1562
+		_gbt_stop	1569
+		_gbt_enable_channels	1574
+		_gbt_update	157B
+		_rand	1680
+		_randw	1680
+		__mulschar_rrx_s	16AB
+		__mulschar_rrx_hds	16B2
+		__muluchar_rrx_s	16BE
+		__mulsint_rrx_s	16CB
+		__muluint_rrx_s	16CB
+		__mulsint_rrx_hds	16D7
+		__muluint_rrx_hds	16D7
+		__muluchar_rrx_hds	16D7
+		__divschar_rrx_s	16F3
+		__divschar_rrx_hds	16FA
+		__modschar_rrx_s	1701
+		__modschar_rrx_hds	1708
+		__divsint_rrx_s	170D
+		__divsint_rrx_hds	1719
+		__modsint_rrx_s	1721
+		__modsint_rrx_hds	172D
+		__divuchar_rrx_s	1733
+		__divuchar_rrx_hds	173A
+		__moduchar_rrx_s	1741
+		__moduchar_rrx_hds	1748
+		__divuint_rrx_s	174D
+		__divuint_rrx_hds	1759
+		__moduint_rrx_s	1761
+		__moduint_rrx_hds	176D
+		.mod8	1773
+		.div8	1773
+		.mod16	177B
+		.div16	177B
+		.modu8	17B5
+		.divu8	17B5
+		.modu16	17B8
+		.divu16	17B8
 AREA _HEADER
 	RADIX HEX
 	BASE 0000
@@ -163,113 +163,113 @@ AREA _HEADER
 		_exit	01D2
 AREA _HOME
 	RADIX HEX
-	BASE 18B0
+	BASE 17F5
 	SIZE 0312
 	ATTRIB REL CON
 	GLOBALS
-		.set_mode	18B0
-		.remove_VBL	18C0
-		.remove_LCD	18C6
-		.remove_TIM	18CC
-		.remove_SIO	18D2
-		.remove_JOY	18D8
-		.add_VBL	18DE
-		.add_LCD	18E4
-		.add_TIM	18EA
-		.add_SIO	18F0
-		.add_JOY	18F6
-		.remove_int	18FC
-		.add_int	191C
-		.wait_vbl_done	1938
-		_wait_vbl_done	1938
-		_display_off	194F
-		.display_off	194F
-		.serial_IO	1970
-		_mode	199F
-		_get_mode	19A8
-		_enable_interrupts	19AD
-		_disable_interrupts	19AF
-		_reset	19B1
-		.reset	19B1
-		_set_interrupts	19B7
-		_remove_VBL	19C2
-		_remove_LCD	19CD
-		_remove_TIM	19D8
-		_remove_SIO	19E3
-		_remove_JOY	19EE
-		_add_VBL	19F9
-		_add_LCD	1A04
-		_add_TIM	1A0F
-		_add_SIO	1A1A
-		_add_JOY	1A25
-		_clock	1A30
-		__printTStates	1A39
-		banked_call	1A3A
-		banked_ret	1A53
-		__initrleblock	1A5C
-		_strcpy	1A83
-		_memcpy	1AB6
-		_strcmp	1AFB
-		_strcat	1B53
-		_strlen	1B9C
+		.set_mode	17F5
+		.remove_VBL	1805
+		.remove_LCD	180B
+		.remove_TIM	1811
+		.remove_SIO	1817
+		.remove_JOY	181D
+		.add_VBL	1823
+		.add_LCD	1829
+		.add_TIM	182F
+		.add_SIO	1835
+		.add_JOY	183B
+		.remove_int	1841
+		.add_int	1861
+		.wait_vbl_done	187D
+		_wait_vbl_done	187D
+		_display_off	1894
+		.display_off	1894
+		.serial_IO	18B5
+		_mode	18E4
+		_get_mode	18ED
+		_enable_interrupts	18F2
+		_disable_interrupts	18F4
+		_reset	18F6
+		.reset	18F6
+		_set_interrupts	18FC
+		_remove_VBL	1907
+		_remove_LCD	1912
+		_remove_TIM	191D
+		_remove_SIO	1928
+		_remove_JOY	1933
+		_add_VBL	193E
+		_add_LCD	1949
+		_add_TIM	1954
+		_add_SIO	195F
+		_add_JOY	196A
+		_clock	1975
+		__printTStates	197E
+		banked_call	197F
+		banked_ret	1998
+		__initrleblock	19A1
+		_strcpy	19C8
+		_memcpy	19FB
+		_strcmp	1A40
+		_strcat	1A98
+		_strlen	1AE1
 AREA _BASE
 	RADIX HEX
-	BASE 1BC2
+	BASE 1B07
 	SIZE 01DA
 	ATTRIB REL CON
 	GLOBALS
-		.set_sprite_prop	1BC2
-		_set_sprite_prop	1BCF
-		_initrand	1BDA
-		.initrand	1BDC
-		.mv_sprite	1BE5
-		_move_sprite	1BF4
-		_set_win_tiles	1C01
-		_set_win_data	1C15
-		_set_bkg_data	1C15
-		_set_sprite_data	1C62
-		.padup	1C91
-		_waitpadup	1C91
-		.jpad	1CA1
-		.wait_pad	1CCE
-		_joypad	1CD5
-		_waitpad	1CDA
-		.set_sprite_tile	1CE4
-		_set_sprite_tile	1CF1
-		.copy_vram	1CFC
-		_get_data	1D0B
-		_set_data	1D0B
-		_set_bkg_tiles	1D1E
-		.set_xy_wtt	1D32
-		.set_xy_btt	1D43
-		.set_xy_tt	1D52
-		_set_tiles	1D83
+		.set_sprite_prop	1B07
+		_set_sprite_prop	1B14
+		_initrand	1B1F
+		.initrand	1B21
+		.mv_sprite	1B2A
+		_move_sprite	1B39
+		_set_win_tiles	1B46
+		_set_win_data	1B5A
+		_set_bkg_data	1B5A
+		_set_sprite_data	1BA7
+		.padup	1BD6
+		_waitpadup	1BD6
+		.jpad	1BE6
+		.wait_pad	1C13
+		_joypad	1C1A
+		_waitpad	1C1F
+		.set_sprite_tile	1C29
+		_set_sprite_tile	1C36
+		.copy_vram	1C41
+		_get_data	1C50
+		_set_data	1C50
+		_set_bkg_tiles	1C63
+		.set_xy_wtt	1C77
+		.set_xy_btt	1C88
+		.set_xy_tt	1C97
+		_set_tiles	1CC8
 AREA _LIT
 	RADIX HEX
-	BASE 1D9C
+	BASE 1CE1
 	SIZE 0000
 	ATTRIB REL CON
 AREA _GSINIT
 	RADIX HEX
-	BASE 1D9C
-	SIZE 05D7
+	BASE 1CE1
+	SIZE 0600
 	ATTRIB REL CON
 	GLOBALS
-		gsinit	1D9C
+		gsinit	1CE1
 AREA _GSINITTAIL
 	RADIX HEX
-	BASE 2373
+	BASE 22E1
 	SIZE 0001
 	ATTRIB REL CON
 AREA _GSFINAL
 	RADIX HEX
-	BASE 2374
+	BASE 22E2
 	SIZE 0000
 	ATTRIB REL CON
 AREA _DATA
 	RADIX HEX
 	BASE C0A0
-	SIZE 04D9
+	SIZE 04FD
 	ATTRIB REL CON
 	GLOBALS
 		_scene_bank	C0A0
@@ -280,162 +280,162 @@ AREA _DATA
 		_col_bank	C0A7
 		_events_ptr	C0A8
 		_bank_ptr	C0AB
-		_scene_num_actors	C0AE
-		_scene_num_triggers	C0AF
-		_emote_type	C0B0
-		_emote_timer	C0B1
-		_emote_actor	C0B2
-		_scene_col_tiles	C0B3
-		_camera_moved	C133
-		_directions	C134
-		_update_dir	C13E
-		_last_joy	C140
-		_bank_data_ptrs	C141
-		_music_tracks	C153
-		_script_variables	C157
-		_map_next_pos	C1BF
-		_map_next_dir	C1C1
-		_map_next_sprite	C1C3
-		_actors	C1C4
-		_triggers	C2B6
-		_scene_index	C310
-		_scene_next_index	C312
-		_await_input	C314
-		_camera_dest	C315
-		_camera_settings	C317
-		_camera_speed	C318
-		_wait_time	C319
-		_shake_time	C31A
-		_scene_width	C31B
-		_scene_height	C31C
-		_scriptrunner_bank	C31D
-		_RAMPtr	C31E
-		_current_index	C320
-		_joy	C321
-		_prev_joy	C322
-		_time	C323
-		_rand_seed	C324
-		_actor_move_settings	C326
-		_actor_move_dest	C327
-		_stage_type	C329
-		_stage_next_type	C32A
-		_script_continue	C32B
-		_script_action_complete	C32C
-		_script_actor	C32D
-		_scene_stack_ptr	C32E
-		_scene_stack	C32F
-		_bank_stack	C35F
-		_ui_bank	C36A
-		_script_ptr_bank	C36B
-		_script_ptr	C36C
-		_script_ptr_x	C36E
-		_script_ptr_y	C370
-		_script_start_ptr	C372
-		_script_cmd_args	C374
-		_script_cmd_args_len	C37A
-		_last_fn	C37B
-		_BG_ptr_bank	C37D
-		_BG_ptr	C37E
-		_BG_start_ptr	C380
-		_BGscript_active	C382
-		_BGscript_actor	C383
-		_script_stack_ptr	C384
-		_script_stack	C385
-		_script_cmds	C395
-		_win_pos_x	C47F
-		_win_pos_y	C480
-		_win_dest_pos_x	C481
-		_win_dest_pos_y	C482
-		_win_speed	C483
-		_text_x	C484
-		_text_y	C485
-		_text_drawn	C486
-		_text_count	C487
-		_text_wait	C488
-		_text_in_speed	C489
-		_text_out_speed	C48A
-		_text_draw_speed	C48B
-		_choice_enabled	C48C
-		_choice_index	C48D
-		_choice_flag	C48E
-		_text_lines	C490
-		_tmp_text_lines	C4E0
-		_fade_running	C530
-		gbt_playing	C539
-		gbt_song	C53A
-		gbt_bank	C53C
-		gbt_speed	C53D
-		gbt_temp_play_data	C53E
-		gbt_loop_enabled	C54A
-		gbt_ticks_elapsed	C54B
-		gbt_current_step	C54C
-		gbt_current_pattern	C54D
-		gbt_current_step_data_ptr	C54E
-		gbt_channels_enabled	C550
-		gbt_pan	C551
-		gbt_vol	C555
-		gbt_instr	C559
-		gbt_freq	C55D
-		gbt_channel3_loaded_instrument	C563
-		gbt_arpeggio_freq_index	C564
-		gbt_arpeggio_enabled	C56D
-		gbt_arpeggio_tick	C570
-		gbt_cut_note_tick	C573
-		gbt_have_to_stop_next_step	C577
-		gbt_update_pattern_pointers	C578
+		_check_triggers	C0AE
+		_scene_num_actors	C0AF
+		_scene_num_triggers	C0B0
+		_emote_type	C0B1
+		_emote_timer	C0B2
+		_emote_actor	C0B3
+		_scene_col_tiles	C0B4
+		_camera_moved	C134
+		_directions	C135
+		_update_dir	C13F
+		_last_joy	C141
+		_bank_data_ptrs	C142
+		_music_tracks	C154
+		_script_variables	C158
+		_map_next_pos	C1C5
+		_map_next_dir	C1C7
+		_map_next_sprite	C1C9
+		_actors	C1CA
+		_triggers	C2BC
+		_scene_index	C316
+		_scene_next_index	C318
+		_await_input	C31A
+		_camera_dest	C31B
+		_camera_settings	C31D
+		_camera_speed	C31E
+		_wait_time	C31F
+		_shake_time	C320
+		_scene_width	C321
+		_scene_height	C322
+		_input_script_ptrs	C323
+		_scriptrunner_bank	C33B
+		_RAMPtr	C33C
+		_current_index	C33E
+		_joy	C33F
+		_prev_joy	C340
+		_time	C341
+		_rand_seed	C342
+		_actor_move_settings	C344
+		_actor_move_dest	C345
+		_stage_type	C347
+		_stage_next_type	C348
+		_script_continue	C349
+		_script_action_complete	C34A
+		_script_actor	C34B
+		_scene_stack_ptr	C34C
+		_scene_stack	C34D
+		_bank_stack	C37D
+		_ui_bank	C388
+		_ptr_div_reg	C389
+		_script_ptr_bank	C38B
+		_script_ptr	C38C
+		_script_ptr_x	C38E
+		_script_ptr_y	C390
+		_script_start_ptr	C392
+		_script_cmd_args	C394
+		_script_cmd_args_len	C39A
+		_last_fn	C39B
+		_script_stack_ptr	C39D
+		_script_stack	C39E
+		_script_cmds	C3AE
+		_win_pos_x	C4A1
+		_win_pos_y	C4A2
+		_win_dest_pos_x	C4A3
+		_win_dest_pos_y	C4A4
+		_win_speed	C4A5
+		_text_x	C4A6
+		_text_y	C4A7
+		_text_drawn	C4A8
+		_text_count	C4A9
+		_text_wait	C4AA
+		_text_in_speed	C4AB
+		_text_out_speed	C4AC
+		_text_draw_speed	C4AD
+		_tmp_text_in_speed	C4AE
+		_tmp_text_out_speed	C4AF
+		_choice_enabled	C4B0
+		_choice_index	C4B1
+		_choice_flag	C4B2
+		_text_lines	C4B4
+		_tmp_text_lines	C504
+		_fade_running	C554
+		gbt_playing	C55D
+		gbt_song	C55E
+		gbt_bank	C560
+		gbt_speed	C561
+		gbt_temp_play_data	C562
+		gbt_loop_enabled	C56E
+		gbt_ticks_elapsed	C56F
+		gbt_current_step	C570
+		gbt_current_pattern	C571
+		gbt_current_step_data_ptr	C572
+		gbt_channels_enabled	C574
+		gbt_pan	C575
+		gbt_vol	C579
+		gbt_instr	C57D
+		gbt_freq	C581
+		gbt_channel3_loaded_instrument	C587
+		gbt_arpeggio_freq_index	C588
+		gbt_arpeggio_enabled	C591
+		gbt_arpeggio_tick	C594
+		gbt_cut_note_tick	C597
+		gbt_have_to_stop_next_step	C59B
+		gbt_update_pattern_pointers	C59C
 AREA _BSS
 	RADIX HEX
-	BASE C579
+	BASE C59D
 	SIZE 005E
 	ATTRIB REL CON
 	GLOBALS
-		__cpu	C579
-		.mode	C57A
-		__io_out	C57B
-		__io_in	C57C
-		__io_status	C57D
-		.vbl_done	C57E
-		__current_bank	C57F
-		_sys_time	C580
-		.sys_time	C580
-		.int_0x40	C582
-		.int_0x48	C592
-		.int_0x50	C5A2
-		.int_0x58	C5B2
-		.int_0x60	C5C2
-		.randhi	C5D2
-		.randlo	C5D3
+		__cpu	C59D
+		.mode	C59E
+		__io_out	C59F
+		__io_in	C5A0
+		__io_status	C5A1
+		.vbl_done	C5A2
+		__current_bank	C5A3
+		_sys_time	C5A4
+		.sys_time	C5A4
+		.int_0x40	C5A6
+		.int_0x48	C5B6
+		.int_0x50	C5C6
+		.int_0x58	C5D6
+		.int_0x60	C5E6
+		.randhi	C5F6
+		.randlo	C5F7
 AREA _HEAP
 	RADIX HEX
-	BASE C5D7
+	BASE C5FB
 	SIZE 0000
 	ATTRIB REL CON
 	GLOBALS
-		_malloc_heap_start	C5D7
+		_malloc_heap_start	C5FB
 AREA _OVERLAY
 	RADIX HEX
-	BASE C5D7
+	BASE C5FB
 	SIZE 0000
 	ATTRIB REL CON
 AREA _ISEG
 	RADIX HEX
-	BASE C5D7
+	BASE C5FB
 	SIZE 0000
 	ATTRIB REL CON
 AREA _BSEG
 	RADIX HEX
-	BASE C5D7
+	BASE C5FB
 	SIZE 0000
 	ATTRIB REL CON
 AREA _XSEG
 	RADIX HEX
-	BASE C5D7
+	BASE C5FB
 	SIZE 0000
 	ATTRIB REL CON
 AREA _CODE_3
 	RADIX HEX
 	BASE 4000
-	SIZE 2486
+	SIZE 273C
 	ATTRIB REL CON
 	GLOBALS
 		_SceneInit_b1	4000
@@ -446,166 +446,169 @@ AREA _CODE_3
 		_dir_right	4060
 		_dir_none	4062
 		_SceneInit_b2	4064
-		_SceneInit_b3	49A5
-		_SceneInit_b4	49EA
-		_SceneInit_b5	4A06
-		_SceneInit_b6	4B6B
-		_SceneInit_b7	4C8E
-		_SceneInit_b8	4D5F
-		_SceneInit_b9	4DAD
-		_SceneUpdate_b	4F3D
-		_SceneHandleWait	4F5F
-		_SceneHandleTransition	4F7B
-		_SceneUpdateCamera_b	4FA9
-		_SceneUpdateActors_b	517D
-		_SceneUpdateActorMovement_b	57DD
-		_SceneHandleTriggers_b	5A05
-		_SceneUpdateCameraShake_b	5ACE
-		_SceneUpdateEmoteBubble_b	5AEA
-		_SceneRender	5D70
-		_SceneRenderCameraShake_b	5D7A
-		_SceneRenderActors_b	5DA5
-		_SceneRenderActor_b	5F58
-		_SceneRenderEmoteBubble_b	6109
-		_ScenePlayerAt_b	61C7
-		_SceneNpcAt_b	622F
-		_SceneTriggerAt_b	630A
-		_SceneSetEmote_b	63B4
-		_SceneIsEmoting_b	642B
-		_SceneCameraAtDest_b	6437
+		_SceneInit_b3	49DE
+		_SceneInit_b4	4A23
+		_SceneInit_b5	4A3F
+		_SceneInit_b6	4BA4
+		_SceneInit_b7	4CC7
+		_SceneInit_b8	4D98
+		_SceneInit_b9	4DE6
+		_SceneUpdate_b	4F70
+		_SceneHandleWait	4F92
+		_SceneHandleTransition	4FAE
+		_SceneUpdateCamera_b	4FDC
+		_SceneUpdateActors_b	51B0
+		_SceneUpdateActorMovement_b	59E0
+		_SceneHandleTriggers_b	5C22
+		_SceneUpdateCameraShake_b	5CF4
+		_SceneUpdateEmoteBubble_b	5D10
+		_SceneRender	600E
+		_SceneRenderCameraShake_b	6018
+		_SceneRenderActors_b	6043
+		_SceneRenderActor_b	6204
+		_SceneRenderEmoteBubble_b	63BF
+		_ScenePlayerAt_b	647D
+		_SceneNpcAt_b	64E5
+		_SceneTriggerAt_b	65C0
+		_SceneSetEmote_b	666A
+		_SceneIsEmoting_b	66E1
+		_SceneCameraAtDest_b	66ED
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 2AD2
+	SIZE 2E68
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 01D0
+	SIZE 0245
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	4018
 		_sprite_bank_ptrs	4042
-		_scene_bank_ptrs	4066
-		_string_bank_ptrs	4090
-		_music_banks	41CE
+		_scene_bank_ptrs	4069
+		_string_bank_ptrs	4093
+		_music_banks	4243
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 377D
+	SIZE 3EF9
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3FE7
+	SIZE 3DC2
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_4
 	RADIX HEX
 	BASE 4000
-	SIZE 2945
+	SIZE 2AE8
 	ATTRIB REL CON
 	GLOBALS
 		_Script_Noop_b	4000
 		_Script_End_b	4011
-		_Script_Text_b	4058
-		_Script_Goto_b	409F
-		_Script_IfFlag_b	40DF
-		_Script_IfValue_b	4164
-		_Script_SetFlag_b	42C1
-		_Script_ClearFlag_b	430B
-		_Script_ActorSetDir_b	4355
-		_Script_ActorActivate_b	440F
-		_Script_CameraMoveTo_b	442D
-		_Script_CameraLock_b	448F
-		_Script_Wait_b	4534
-		_Script_FadeOut_b	4552
-		_Script_FadeIn_b	4577
-		_Script_LoadScene_b	459C
-		_Script_ActorSetPos_b	46B0
-		_Script_ActorMoveTo_b	4732
-		_Script_ShowSprites_b	4795
-		_Script_HideSprites_b	47C5
-		_Script_ActorShow_b	47F5
-		_Script_ActorHide_b	4829
-		_Script_ActorSetEmote_b	485D
-		_Script_CameraShake_b	4888
-		_Script_ShowOverlay_b	48A6
-		_Script_HideOverlay_b	48FE
-		_Script_OverlaySetPos_b	491D
-		_Script_OverlayMoveTo_b	495A
-		_Script_AwaitInput_b	49B0
-		_Script_MusicPlay_b	49CE
-		_Script_MusicStop_b	49FF
-		_Script_ResetVariables_b	4A20
-		_Script_NextFrame_b	4A5A
-		_Script_IncFlag_b	4A70
-		_Script_DecFlag_b	4ACE
-		_Script_SetFlagValue_b	4B2A
-		_Script_IfInput_b	4B81
-		_Script_Choice_b	4BE2
-		_Script_PlayerSetSprite_b	4C67
-		_Script_ActorPush_b	4DF5
-		_Script_IfActorPos_b	4F7D
-		_Script_SaveData_b	504C
-		_Script_LoadData_b	5134
-		_Script_ClearData_b	5265
-		_Script_IfSavedData_b	5295
-		_Script_IfActorDirection_b	5311
-		_Script_SetFlagRandomValue_b	53EC
-		_Script_ActorGetPos_b	546D
-		_Script_ActorSetPosToVal_b	550A
-		_Script_ActorMoveToVal_b	559D
-		_Script_ActorMoveRel_b	560C
-		_Script_ActorSetPosRel_b	5736
-		_Script_MathAdd_b	58A7
-		_Script_MathSub_b	5907
-		_Script_MathMul_b	596B
-		_Script_MathDiv_b	59DE
-		_Script_MathMod_b	5A4F
-		_Script_MathAddVal_b	5AC0
-		_Script_MathSubVal_b	5B02
-		_Script_MathMulVal_b	5B48
-		_Script_MathDivVal_b	5B9D
-		_Script_MathModVal_b	5BF0
-		_Script_CopyVal_b	5C43
-		_Script_IfValueCompare_b	5C80
-		_Script_LoadVectors_b	5D9E
-		_Script_ActorSetMoveSpeed_b	5E10
-		_Script_ActorSetAnimSpeed_b	5E49
-		_Script_TextSetAnimSpeed_b	5E82
-		_Script_ActorInvoke_b	5EB0
-		_Script_StackPush_b	5ED4
-		_Script_StackPop_b	5F22
-		_Script_ScenePushState_b	5F44
-		_Script_ScenePopState_b	601A
-		_Script_SceneResetStack_b	6117
-		_Script_ScenePopAllState_b	6132
-		_Script_SetBGscript_b	61F6
-		_Script_ClearBGscript_b	6235
-		_UIInit_b	626A
-		_ui_frame_tl_tiles	62FC
-		_ui_frame_bl_tiles	62FD
-		_ui_frame_tr_tiles	62FE
-		_ui_frame_br_tiles	62FF
-		_ui_frame_t_tiles	6300
-		_ui_frame_b_tiles	6301
-		_ui_frame_l_tiles	6302
-		_ui_frame_r_tiles	6303
-		_ui_frame_bg_tiles	6304
-		_ui_colors	6305
-		_ui_white	65D5
-		_ui_black	65E5
-		_UIUpdate_b	65F5
-		_UIDrawFrame_b	66C5
-		_UIDrawDialogueFrame_b	67F8
-		_UISetColor_b	6900
+		_Script_Text_b	401F
+		_Script_Goto_b	4066
+		_Script_IfFlag_b	40A6
+		_Script_IfValue_b	412B
+		_Script_SetFlag_b	4288
+		_Script_ClearFlag_b	42D2
+		_Script_ActorSetDir_b	431C
+		_Script_ActorActivate_b	43D6
+		_Script_CameraMoveTo_b	43F4
+		_Script_CameraLock_b	4456
+		_Script_Wait_b	44FB
+		_Script_FadeOut_b	4519
+		_Script_FadeIn_b	453E
+		_Script_LoadScene_b	4563
+		_Script_ActorSetPos_b	4677
+		_Script_ActorMoveTo_b	46F9
+		_Script_ShowSprites_b	475C
+		_Script_HideSprites_b	478C
+		_Script_ActorShow_b	47BC
+		_Script_ActorHide_b	47F0
+		_Script_ActorSetEmote_b	4824
+		_Script_CameraShake_b	484F
+		_Script_ShowOverlay_b	486D
+		_Script_HideOverlay_b	48C5
+		_Script_OverlaySetPos_b	48E4
+		_Script_OverlayMoveTo_b	4921
+		_Script_AwaitInput_b	4977
+		_Script_MusicPlay_b	4995
+		_Script_MusicStop_b	49C6
+		_Script_ResetVariables_b	49E7
+		_Script_NextFrame_b	4A21
+		_Script_IncFlag_b	4A37
+		_Script_DecFlag_b	4A95
+		_Script_SetFlagValue_b	4AF1
+		_Script_IfInput_b	4B48
+		_Script_Choice_b	4BA9
+		_Script_PlayerSetSprite_b	4C2E
+		_Script_ActorPush_b	4DBC
+		_Script_IfActorPos_b	4F44
+		_Script_SaveData_b	5013
+		_Script_LoadData_b	50FB
+		_Script_ClearData_b	522C
+		_Script_IfSavedData_b	525C
+		_Script_IfActorDirection_b	52D8
+		_Script_SetFlagRandomValue_b	53B3
+		_Script_ActorGetPos_b	5440
+		_Script_ActorSetPosToVal_b	54DD
+		_Script_ActorMoveToVal_b	5570
+		_Script_ActorMoveRel_b	55DF
+		_Script_ActorSetPosRel_b	5709
+		_Script_MathAdd_b	587A
+		_Script_MathSub_b	58DA
+		_Script_MathMul_b	593E
+		_Script_MathDiv_b	59B1
+		_Script_MathMod_b	5A22
+		_Script_MathAddVal_b	5A93
+		_Script_MathSubVal_b	5AD5
+		_Script_MathMulVal_b	5B1B
+		_Script_MathDivVal_b	5B70
+		_Script_MathModVal_b	5BC3
+		_Script_CopyVal_b	5C16
+		_Script_IfValueCompare_b	5C53
+		_Script_LoadVectors_b	5D71
+		_Script_ActorSetMoveSpeed_b	5DE3
+		_Script_ActorSetAnimSpeed_b	5E1C
+		_Script_TextSetAnimSpeed_b	5E55
+		_Script_ActorInvoke_b	5E83
+		_Script_StackPush_b	5EA7
+		_Script_StackPop_b	5EF5
+		_Script_ScenePushState_b	5F17
+		_Script_ScenePopState_b	5FED
+		_Script_SceneResetStack_b	60EA
+		_Script_ScenePopAllState_b	6105
+		_Script_SetInputScript_b	61C9
+		_Script_RemoveInputScript_b	6274
+		_Script_ActorSetFrame_b	62D1
+		_Script_ActorSetFlip_b	6346
+		_Script_TextMulti_b	638D
+		_UIInit_b	640D
+		_ui_frame_tl_tiles	649F
+		_ui_frame_bl_tiles	64A0
+		_ui_frame_tr_tiles	64A1
+		_ui_frame_br_tiles	64A2
+		_ui_frame_t_tiles	64A3
+		_ui_frame_b_tiles	64A4
+		_ui_frame_l_tiles	64A5
+		_ui_frame_r_tiles	64A6
+		_ui_frame_bg_tiles	64A7
+		_ui_colors	64A8
+		_ui_white	6778
+		_ui_black	6788
+		_UIUpdate_b	6798
+		_UIDrawFrame_b	6868
+		_UIDrawDialogueFrame_b	699B
+		_UISetColor_b	6AA3
 AREA _CODE_1
 	RADIX HEX
 	BASE 4000
@@ -622,41 +625,41 @@ MODULES
 	FILE /tmp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/Scene_b.o
-		NAME lcc118930
+		NAME lcc68380
 	FILE obj/data/bank_8.o
-		NAME lcc118980
+		NAME lcc68420
 	FILE obj/data/data_ptrs.o
-		NAME lcc119040
+		NAME lcc68460
 	FILE obj/data/bank_6.o
-		NAME lcc119160
+		NAME lcc68500
 	FILE obj/data/bank_7.o
-		NAME lcc119210
+		NAME lcc68540
 	FILE obj/Scene.o
-		NAME lcc119250
+		NAME lcc68580
 	FILE obj/ScriptRunner_b.o
-		NAME lcc119290
+		NAME lcc68620
 	FILE obj/MusicManager.o
-		NAME lcc119330
+		NAME lcc68660
 	FILE obj/game.o
-		NAME lcc119370
+		NAME lcc68700
 	FILE obj/BankManager.o
-		NAME lcc119410
+		NAME lcc68740
 	FILE obj/SpriteHelpers.o
-		NAME lcc119450
+		NAME lcc68780
 	FILE obj/UI_b.o
-		NAME lcc119490
+		NAME lcc68820
 	FILE obj/ScriptRunner.o
-		NAME lcc119530
+		NAME lcc68860
 	FILE obj/UI.o
-		NAME lcc119570
+		NAME lcc68900
 	FILE obj/BankData.o
-		NAME lcc119610
+		NAME lcc68940
 	FILE obj/Math.o
-		NAME lcc119650
+		NAME lcc68980
 	FILE obj/Stack.o
-		NAME lcc119690
+		NAME lcc69020
 	FILE obj/FadeManager.o
-		NAME lcc119730
+		NAME lcc69060
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 LIBRARIES
