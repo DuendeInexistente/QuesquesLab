@@ -14,5 +14,13 @@
  <tile id="153" probability="3"/>
  <tile id="197" probability="10"/>
  <tile id="198" probability="10"/>
+ <tile id="586" probability="5"/>
+ <tile id="587" probability="5"/>
+ <tile id="588" probability="10"/>
+ <tile id="589" probability="10"/>
+ <tile id="634" probability="5"/>
+ <tile id="635" probability="5"/>
+ <tile id="636" probability="10"/>
+ <tile id="637" probability="10"/>
  <tile id="772" probability="3"/>
 </tileset>
