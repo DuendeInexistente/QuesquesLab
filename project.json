@@ -144,7 +144,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1558935528217
+            "_v": 1559645537165
         },
         {
             "id": "e7e4d5c3-a600-410a-b230-02435526cfb2",
@@ -154,7 +154,7 @@
             "imageWidth": 166,
             "imageHeight": 144,
             "filename": "GUI/inv sidebar.png",
-            "_v": 1558935528217
+            "_v": 1559645537168
         },
         {
             "id": "d12b2c84-c254-4c86-b9bf-4ed5bea25559",
@@ -164,7 +164,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "GUI/inventory.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -174,7 +174,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1558935528217
+            "_v": 1559645537168
         },
         {
             "id": "65b35808-2dad-459b-9b39-0b1923c61c7a",
@@ -184,7 +184,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/black.png",
-            "_v": 1558935528217
+            "_v": 1559645537168
         },
         {
             "id": "24faf649-2c28-4a5c-aab2-b36aa9771899",
@@ -194,7 +194,7 @@
             "imageWidth": 224,
             "imageHeight": 224,
             "filename": "Lab/blast room.png",
-            "_v": 1558935528227
+            "_v": 1559645537168
         },
         {
             "id": "efebf370-556c-4f9f-bd41-6f9049b5217c",
@@ -204,7 +204,7 @@
             "imageWidth": 200,
             "imageHeight": 160,
             "filename": "Lab/Bridge Over Void.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "7835ea13-ca30-4cb3-8a8a-ce756c8bbd68",
@@ -214,7 +214,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/collapsing hallway.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "25fa25bf-655e-4d73-97c7-474e5be5e43a",
@@ -224,7 +224,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Lab/Entrance.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "d11e7530-eb86-4c29-bf30-79cf1a5bfe30",
@@ -234,7 +234,7 @@
             "imageWidth": 184,
             "imageHeight": 160,
             "filename": "Lab/Hardware room.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "560039fd-4ba0-45c5-899e-49fc3b4dd023",
@@ -244,7 +244,7 @@
             "imageWidth": 160,
             "imageHeight": 192,
             "filename": "Lab/inventory.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "26c0dcdf-818a-4356-a6ca-d62345050c0a",
@@ -254,7 +254,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/Leafs pit.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "06131a46-1015-40d8-88d5-b0ae95489c68",
@@ -264,7 +264,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/Necias pit.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "eded9e08-9eea-4cbd-9766-89fbebef93f9",
@@ -274,7 +274,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/oil room end.png",
-            "_v": 1558935528248
+            "_v": 1559645537169
         },
         {
             "id": "aff69ddc-47e7-4bd5-968d-b4ceaafdd374",
@@ -284,7 +284,7 @@
             "imageWidth": 160,
             "imageHeight": 400,
             "filename": "Lab/oil room middle - divided.png",
-            "_v": 1558935528228
+            "_v": 1559645537168
         },
         {
             "id": "fb54e0bd-e956-4bf3-8a5f-8e97e9e565e4",
@@ -294,7 +294,7 @@
             "imageWidth": 160,
             "imageHeight": 400,
             "filename": "Lab/oil room middle - walkable.png",
-            "_v": 1558935528233
+            "_v": 1559645537169
         },
         {
             "id": "568b8f09-6851-44e1-9035-5c28714b1bfd",
@@ -304,7 +304,7 @@
             "imageWidth": 160,
             "imageHeight": 400,
             "filename": "Lab/oil room.png",
-            "_v": 1558935528233
+            "_v": 1559645537169
         },
         {
             "id": "1ac59c79-f21d-40d0-99f6-c7f6cdb6e8c2",
@@ -314,7 +314,7 @@
             "imageWidth": 200,
             "imageHeight": 152,
             "filename": "Lab/pitdragging.png",
-            "_v": 1558935528246
+            "_v": 1559645537169
         },
         {
             "id": "0b6076b5-8f74-4c05-aefc-06e57ce27ae8",
@@ -324,7 +324,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/RightEntrance -lounge- .png",
-            "_v": 1558935528246
+            "_v": 1559645537169
         },
         {
             "id": "08e77258-51bc-40c4-8e77-1747af89c2fd",
@@ -334,7 +334,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/seas pit.png",
-            "_v": 1558935528246
+            "_v": 1559645537169
         },
         {
             "id": "99d2ae75-9b14-4b78-bb05-2b17c4ac3337",
@@ -344,7 +344,7 @@
             "imageWidth": 192,
             "imageHeight": 192,
             "filename": "Lab/secrettubes.png",
-            "_v": 1558935528247
+            "_v": 1559645537169
         },
         {
             "id": "719e9c11-39f6-441f-8241-8560c4d7614f",
@@ -354,7 +354,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Lab/underwater.png",
-            "_v": 1558935528248
+            "_v": 1559645537169
         },
         {
             "id": "8ef062f0-762e-49b0-aa7c-5dfbf50b3914",
@@ -364,7 +364,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Lab/Water entrance.png",
-            "_v": 1558935528248
+            "_v": 1559645537169
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -374,7 +374,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1558935528248
+            "_v": 1559645537169
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -384,7 +384,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1558935528248
+            "_v": 1559645537170
         },
         {
             "id": "a1a00865-4420-4172-b6b0-69e148daa8d7",
@@ -394,7 +394,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Leaf.png",
-            "_v": 1558935528248
+            "_v": 1559645537170
         },
         {
             "id": "0f41ac97-5986-447e-8904-cc20b654b2c3",
@@ -404,7 +404,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Necia_stares_into_the_dark.png",
-            "_v": 1558935528248
+            "_v": 1559645537170
         },
         {
             "id": "1166af21-231e-4faa-8d60-a872ef71d7b7",
@@ -414,7 +414,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Necia.png",
-            "_v": 1558935528288
+            "_v": 1559645537170
         },
         {
             "id": "57de5858-b218-413d-81f0-8f9317e7e350",
@@ -424,7 +424,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Pawop.png",
-            "_v": 1558935528248
+            "_v": 1559645537170
         },
         {
             "id": "0e4394d4-3679-4838-ac29-d3d0edfa068c",
@@ -434,7 +434,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Portraits/Sea.png",
-            "_v": 1558935528264
+            "_v": 1559645537170
         },
         {
             "id": "02851b13-c7ea-4e18-827e-c8e1686bc1f2",
@@ -444,7 +444,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "quesquentrance.png",
-            "_v": 1558935528264
+            "_v": 1559645537170
         },
         {
             "id": "63e7d2db-59ac-44ab-ac49-392ae29c2b15",
@@ -454,7 +454,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars_testing.png",
-            "_v": 1558935528282
+            "_v": 1559645537170
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -464,7 +464,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1558935528282
+            "_v": 1559645537170
         },
         {
             "id": "f3acfc0a-8f31-4f16-aea1-817c9d66b480",
@@ -474,7 +474,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Tilesets/Entrance.png",
-            "_v": 1558935528287
+            "_v": 1559645537170
         },
         {
             "id": "43a98091-7e15-4e66-8108-26250dbcc5a0",
@@ -484,7 +484,7 @@
             "imageWidth": 664,
             "imageHeight": 496,
             "filename": "Tilesets/First.png",
-            "_v": 1558935528287
+            "_v": 1559645537170
         },
         {
             "id": "db0dafd8-6263-4e26-bb08-6efb02269f53",
@@ -494,7 +494,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Tilesets/untitled.png",
-            "_v": 1558935528292
+            "_v": 1559645537170
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -504,7 +504,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1558935528288
+            "_v": 1559645537170
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -514,7 +514,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1558935528287
+            "_v": 1559645537170
         }
     ],
     "spriteSheets": [
@@ -524,7 +524,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Animated/Cogs.png",
-            "_v": 1558935527895
+            "_v": 1559645537149
         },
         {
             "id": "e3567bbb-1531-44e8-9b38-2b5ebf66d92d",
@@ -532,7 +532,7 @@
             "numFrames": 10,
             "type": "animated",
             "filename": "Animated/electricity.png",
-            "_v": 1558935527895
+            "_v": 1559645537149
         },
         {
             "id": "07bb78de-1a2f-4d5d-a90d-d8360e673ad4",
@@ -540,7 +540,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "Animated/hole.png",
-            "_v": 1558935527895
+            "_v": 1559645537149
         },
         {
             "id": "08dc7252-3163-44ce-a963-9dc1ef61e84a",
@@ -548,7 +548,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/down.png",
-            "_v": 1558935527895
+            "_v": 1559645537149
         },
         {
             "id": "cd31ef20-aafd-4000-ac05-e54a2e0b8d6e",
@@ -556,7 +556,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/genericcircular.png",
-            "_v": 1558935527910
+            "_v": 1559645537149
         },
         {
             "id": "60da9505-3c54-4cb1-841e-dd55cf1dc15f",
@@ -564,7 +564,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/genericsquare.png",
-            "_v": 1558935527895
+            "_v": 1559645537173
         },
         {
             "id": "322d795b-718a-44df-978f-861d00e81559",
@@ -572,7 +572,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/left.png",
-            "_v": 1558935527895
+            "_v": 1559645537150
         },
         {
             "id": "50576478-766d-4184-ad45-4985f54beec8",
@@ -580,7 +580,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/pad.png",
-            "_v": 1558935527910
+            "_v": 1559645537150
         },
         {
             "id": "20534289-e8ef-4318-b0c2-eb893183f862",
@@ -588,7 +588,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/right.png",
-            "_v": 1558935527910
+            "_v": 1559645537150
         },
         {
             "id": "851c14f5-cead-40b7-8e22-e85b9158ba65",
@@ -596,7 +596,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Arrows/up.png",
-            "_v": 1558935527910
+            "_v": 1559645537150
         },
         {
             "id": "afd2bd5e-4057-4f96-90c9-b857a1899d8c",
@@ -604,7 +604,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Black.png",
-            "_v": 1558935528216
+            "_v": 1559645537150
         },
         {
             "id": "b4c87c0d-a0ce-40c1-900b-ed297913fa20",
@@ -612,7 +612,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/cat.png",
-            "_v": 1558935528217
+            "_v": 1559645537150
         },
         {
             "id": "fefb0123-2cf6-4468-b520-bb6d5db82456",
@@ -620,7 +620,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/dog.png",
-            "_v": 1558935528217
+            "_v": 1559645537150
         },
         {
             "id": "3e06c56b-3038-4577-9937-d9b3ee3f6303",
@@ -628,7 +628,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/duck.png",
-            "_v": 1558935527910
+            "_v": 1559645537150
         },
         {
             "id": "b700ca0f-9760-4585-a0a0-c2e6504604c7",
@@ -636,7 +636,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/ice.png",
-            "_v": 1558935527910
+            "_v": 1559645537168
         },
         {
             "id": "8884edac-d484-41f9-993a-0a3620768526",
@@ -644,7 +644,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "default/npc001.png",
-            "_v": 1558935527910
+            "_v": 1559645537165
         },
         {
             "id": "d8b95c20-e527-46a4-90a2-846976e0ceea",
@@ -652,7 +652,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "default/npc002.png",
-            "_v": 1558935527910
+            "_v": 1559645537150
         },
         {
             "id": "a8b4aac1-b3a2-480c-819e-8fdf4bbf4468",
@@ -660,7 +660,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "default/npc003.png",
-            "_v": 1558935527910
+            "_v": 1559645537150
         },
         {
             "id": "fc7ea84b-2259-4183-8c3e-bd217e9d8a59",
@@ -668,7 +668,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/radio.png",
-            "_v": 1558935527910
+            "_v": 1559645537150
         },
         {
             "id": "614b7b2d-bc35-472e-a416-96d2457777fe",
@@ -676,7 +676,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/rock.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "cd68add9-d0b2-46b3-93f5-928468482b45",
@@ -684,7 +684,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/sage.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "748d60e3-dfed-497c-ba7e-464638553986",
@@ -692,7 +692,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "default/signpost.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "a926978b-d415-4863-96a7-dcc6ed1bd143",
@@ -700,7 +700,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Invisible.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "8af8fc1c-0475-4c4d-a47f-120e3c8e0f04",
@@ -708,7 +708,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "Items/belt.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "4a5cb5b5-d6c2-4f1d-bb2a-e928d740d534",
@@ -716,7 +716,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "Items/bottle.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "b2c66d82-5e85-4edf-9b3e-1cc6252b760e",
@@ -724,7 +724,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Items/Key.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "516a3d32-7ba8-421b-98f5-acb793858e66",
@@ -732,7 +732,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Items/paper.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "c28c10a3-bc88-4e0d-a490-4f7aa6baf731",
@@ -740,7 +740,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "lamp.png",
-            "_v": 1558935528216
+            "_v": 1559645537150
         },
         {
             "id": "35657cda-243d-4ba7-a570-ab7b6db8d1bf",
@@ -748,7 +748,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Leaf-export.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "d156fe56-2100-4ae5-85cc-5129a3dbe1b2",
@@ -756,7 +756,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Leaf.png",
-            "_v": 1558935527911
+            "_v": 1559645537150
         },
         {
             "id": "1b9fb4d8-860a-47cd-adf5-b1932a621142",
@@ -764,7 +764,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Necia_swiming.png",
-            "_v": 1558935527912
+            "_v": 1559645537150
         },
         {
             "id": "1a0f762d-8d61-4f3d-ab58-e0fb2617a066",
@@ -772,7 +772,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Necia.png",
-            "_v": 1558935527912
+            "_v": 1559645537151
         },
         {
             "id": "aa8a7bbd-ce1f-401d-bead-e8979d6e314a",
@@ -780,7 +780,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "MC_pawop.png",
-            "_v": 1558935527912
+            "_v": 1559645537151
         },
         {
             "id": "85a4edc4-3305-4d21-a9e8-2890c96f4865",
@@ -788,7 +788,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Pawop.png",
-            "_v": 1558935527912
+            "_v": 1559645537151
         },
         {
             "id": "8060dcce-521b-4160-8295-b5883e8505ed",
@@ -796,7 +796,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "MC_Sea.png",
-            "_v": 1558935527912
+            "_v": 1559645537151
         },
         {
             "id": "ad1d4a3c-c493-4f52-b8ca-d84283f15e2b",
@@ -804,7 +804,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "Pushable/diamondblock.png",
-            "_v": 1558935527912
+            "_v": 1559645537151
         },
         {
             "id": "d3ecef52-820c-4986-bd08-9b549c2d038e",
@@ -812,7 +812,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Pushable/diamondblockH.png",
-            "_v": 1558935527912
+            "_v": 1559645537151
         },
         {
             "id": "0cafbed1-9350-4e1d-b221-8013f6e9b40e",
@@ -820,7 +820,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Pushable/diamondblockV.png",
-            "_v": 1558935527912
+            "_v": 1559645537152
         },
         {
             "id": "522f2a43-bfb7-42ea-9b58-3c604b914d0d",
@@ -828,7 +828,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "RIP.png",
-            "_v": 1558935528217
+            "_v": 1559645537164
         },
         {
             "id": "5491677c-4aa0-45ef-8bb9-897814187076",
@@ -836,7 +836,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "SafetyRail_Door.png",
-            "_v": 1558935528216
+            "_v": 1559645537164
         }
     ],
     "scenes": [
@@ -892,6 +892,13 @@
                             "command": "EVENT_SET_TRUE",
                             "args": {
                                 "variable": "51"
+                            }
+                        },
+                        {
+                            "id": "f539ed16-d419-4703-9e6f-d913e5f7573e",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "11"
                             }
                         },
                         {
@@ -10671,7 +10678,8 @@
                                 "actorId": "e5075d90-769c-42e9-8a6e-5c6350c029cf",
                                 "x": 1,
                                 "y": 17,
-                                "__collapseElse": true
+                                "__collapseElse": true,
+                                "__label": "Hole check"
                             },
                             "true": [
                                 {
@@ -10793,7 +10801,7 @@
                 136,
                 0,
                 0,
-                144,
+                16,
                 0,
                 0,
                 32,

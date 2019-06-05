@@ -383,7 +383,7 @@
 01:4069 _sprite_bank_ptrs
 01:409C _scene_bank_ptrs
 01:40E1 _string_bank_ptrs
-01:4333 _music_banks
+01:4348 _music_banks
 ; Area: _CODE_9
 01:4000 _bank_9_data
 ; Area: _CODE_10
