@@ -2,7 +2,7 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 86,
+        "worldScrollX": 121,
         "worldScrollY": 1055,
         "zoom": 100,
         "customColorsWhite": "C8F8F8",
@@ -3687,7 +3687,7 @@
                         "comparator": 3,
                         "__collapseElse": true,
                         "__label": "Heart Event and hiding Sea",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -3874,32 +3874,6 @@
                                                                     "__type": "event"
                                                                 },
                                                                 {
-                                                                    "id": "789497e2-cf02-4058-8296-f5449d5dbf4a",
-                                                                    "command": "EVENT_ACTOR_MOVE_TO",
-                                                                    "args": {
-                                                                        "actorId": "efcb301b-6a16-4a19-96cf-611d79ae9e34",
-                                                                        "x": 8,
-                                                                        "y": 5
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "be74fc51-e3a9-43dd-bd37-33291d0de1ac",
-                                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                                    "args": {
-                                                                        "actorId": "efcb301b-6a16-4a19-96cf-611d79ae9e34",
-                                                                        "emoteId": "1"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "f8b19fc5-a1ca-46b3-83b2-ed359abcc330",
-                                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                                    "args": {
-                                                                        "actorId": "player",
-                                                                        "emoteId": "0"
-                                                                    },
-                                                                    "__type": "event"
-                                                                },
-                                                                {
                                                                     "id": "ce781afd-66e3-41fb-9824-c1e0ed9a1bb9",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
@@ -3925,52 +3899,36 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "e47d7279-8fa6-4827-a90a-ecc2cce784fe",
-                                                                    "command": "EVENT_GROUP",
+                                                                    "id": "57f762ea-e7c8-4df8-a249-07d26f5348c4",
+                                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
                                                                     "args": {
-                                                                        "__label": "Sound",
-                                                                        "__collapse": true
-                                                                    },
-                                                                    "children": {
-                                                                        "true": [
-                                                                            {
-                                                                                "id": "57f762ea-e7c8-4df8-a249-07d26f5348c4",
-                                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
-                                                                                "args": {
-                                                                                    "type": "beep",
-                                                                                    "pitch": 1,
-                                                                                    "frequency": 200,
-                                                                                    "duration": 0.1
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "id": "54647f63-b267-4b93-a5d7-a31fc85184b1",
-                                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
-                                                                                "args": {
-                                                                                    "type": "beep",
-                                                                                    "pitch": 2,
-                                                                                    "frequency": 200,
-                                                                                    "duration": 0.1
-                                                                                },
-                                                                                "__type": "event"
-                                                                            },
-                                                                            {
-                                                                                "id": "4cf90636-88af-4e0c-8372-21d0acc440c4",
-                                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
-                                                                                "args": {
-                                                                                    "type": "beep",
-                                                                                    "pitch": 1,
-                                                                                    "frequency": 200,
-                                                                                    "duration": 0.1
-                                                                                },
-                                                                                "__type": "event"
-                                                                            },
-                                                                            {
-                                                                                "id": "17c32230-0911-449e-af74-c70a522e54a3",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ]
+                                                                        "type": "beep",
+                                                                        "pitch": 1,
+                                                                        "frequency": 200,
+                                                                        "duration": 0.1
                                                                     }
+                                                                },
+                                                                {
+                                                                    "id": "54647f63-b267-4b93-a5d7-a31fc85184b1",
+                                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                    "args": {
+                                                                        "type": "beep",
+                                                                        "pitch": 2,
+                                                                        "frequency": 200,
+                                                                        "duration": 0.1
+                                                                    },
+                                                                    "__type": "event"
+                                                                },
+                                                                {
+                                                                    "id": "4cf90636-88af-4e0c-8372-21d0acc440c4",
+                                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                    "args": {
+                                                                        "type": "beep",
+                                                                        "pitch": 1,
+                                                                        "frequency": 200,
+                                                                        "duration": 0.1
+                                                                    },
+                                                                    "__type": "event"
                                                                 },
                                                                 {
                                                                     "id": "51e3f8a1-88d9-4065-9c53-d883c3ba6329",
@@ -6212,8 +6170,8 @@
             "id": "52ae6bd8-2653-43d0-a9bf-51f29c4bf7bf",
             "name": "[17] Blast Room",
             "backgroundId": "24faf649-2c28-4a5c-aab2-b36aa9771899",
-            "x": 424.92968587476605,
-            "y": 984.501040149782,
+            "x": 419.92968587476605,
+            "y": 1059.501040149782,
             "width": 28,
             "height": 28,
             "actors": [
@@ -8086,15 +8044,6 @@
                                 }
                             },
                             {
-                                "id": "93289c2c-bbb3-483d-9126-3f8cc2d1a883",
-                                "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
-                                "args": {
-                                    "speedIn": "0",
-                                    "speedOut": "0",
-                                    "speed": "0"
-                                }
-                            },
-                            {
                                 "id": "a460f0f7-9998-4de8-9f9f-0b42424a6e27",
                                 "command": "EVENT_TEXT",
                                 "args": {
@@ -8120,15 +8069,6 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": "You can go back by\nwalking out the\ndoor."
-                                }
-                            },
-                            {
-                                "id": "66104036-3887-4a97-a2fc-44d48e71a3b5",
-                                "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
-                                "args": {
-                                    "speedIn": 1,
-                                    "speedOut": 1,
-                                    "speed": 1
                                 }
                             },
                             {
